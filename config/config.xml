@@ -8,6 +8,6 @@
         <class name="TestModel" path="model/TestModel.php" />
     </classes>
     <actions>
-        <action name="TestAction" path="action/TestAction.php" />
+        <action name="testAction" class="TestAction" path="action/TestAction.php" />
     </actions>
 </config>
