@@ -60,3 +60,16 @@ a.btnWhite {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
+/* line 68, ../sass/main.sass */
+section .homeMainImageLeft {
+  position: absolute;
+}
+/* line 70, ../sass/main.sass */
+section .homeMainImageRight {
+  position: absolute;
+}
+/* line 79, ../sass/main.sass */
+section .homeMainLeft h2 {
+  background: #090a0b;
+  color: whie;
+}
