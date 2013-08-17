@@ -47,15 +47,6 @@
       "fileType" : 2,
       "debugStyle" : 0
     },
-    "\/system\/FrameworkException.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/system\/FrameworkException.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/js\/foundation\/foundation.forms.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -66,6 +57,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/public\/js\/public\/js\/foundation.forms-min.js",
       "fileType" : 64
+    },
+    "\/public\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/public\/js\/foundation\/foundation.interchange.js" : {
       "ignoreWasSetByUser" : 0,
@@ -100,14 +100,32 @@
       "initialSize" : 2170,
       "fileType" : 8192
     },
-    "\/public\/css\/main.css" : {
+    "\/testing.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/main.css",
+      "inputAbbreviatedPath" : "\/testing.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
+    },
+    "\/system\/FrameworkException.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/system\/FrameworkException.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/action\/TestAction.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/action\/TestAction.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/sass\/main.sass" : {
       "ignoreWasSetByUser" : 0,
@@ -120,6 +138,17 @@
       "outputAbbreviatedPath" : "\/public\/css\/main.css",
       "fileType" : 2,
       "debugStyle" : 0
+    },
+    "\/public\/js\/waypoints-sticky.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/waypoints-sticky.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/public\/public\/js\/waypoints-sticky.min-min.js",
+      "fileType" : 64
     },
     "\/public\/js\/vendor\/zepto.js" : {
       "ignoreWasSetByUser" : 0,
@@ -163,6 +192,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
     "\/public\/sass\/_settings.sass" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -174,15 +212,6 @@
       "outputAbbreviatedPath" : "\/public\/css\/_settings.css",
       "fileType" : 2,
       "debugStyle" : 0
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
     },
     "\/maintainance.html" : {
       "ignoreWasSetByUser" : 0,
@@ -246,6 +275,17 @@
       "outputAbbreviatedPath" : "\/public\/js\/public\/js\/foundation.magellan-min.js",
       "fileType" : 64
     },
+    "\/public\/js\/jquery-1.7.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/jquery-1.7.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/public\/public\/js\/jquery-1.7.2.min-min.js",
+      "fileType" : 64
+    },
     "\/public\/js\/vendor\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -255,6 +295,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/public\/js\/public\/js\/custom.modernizr-min.js",
+      "fileType" : 64
+    },
+    "\/public\/js\/waypoints.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/waypoints.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/public\/public\/js\/waypoints.min-min.js",
       "fileType" : 64
     },
     "\/public\/css\/app.css" : {
