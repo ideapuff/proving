@@ -60,3 +60,45 @@ a.btnWhite {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
+/* line 66, ../sass/main.sass */
+section.homeTop {
+  background: black;
+  height: 450px;
+  text-align: center;
+  position: relative;
+}
+/* line 72, ../sass/main.sass */
+section.homeTop .row {
+  position: relative;
+  top: 10%;
+}
+/* line 75, ../sass/main.sass */
+section.homeTop .logo {
+  margin-top: 50px;
+}
+/* line 78, ../sass/main.sass */
+section.homeTop h1 {
+  color: white;
+}
+/* line 80, ../sass/main.sass */
+section.homeTop h1 span {
+  color: #bd0000;
+}
+/* line 82, ../sass/main.sass */
+section.homeTop h3 {
+  font-weight: normal;
+}
+/* line 85, ../sass/main.sass */
+section.homeTop .actionBtn {
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 40px;
+}
+/* line 91, ../sass/main.sass */
+section.homeTop .actionBtn a {
+  margin: 0 10px;
+}
+/* line 93, ../sass/main.sass */
+section.homeTop .actionBtn a:hover {
+  background: #256aa9;
+}
