@@ -97,18 +97,30 @@ section
 				a.btnWhite:hover
 					background: $blue
 	&.homeMain
-		.homeMainLeft
-			// position: absolute
-			background:
-				// image: url('../images/home-jarvan.jpg')
+		background:
+			image: url('../images/home-main.jpg')
+			position: center
+			repeat: no-repeat
 		.homeMainRight
-			// position: absolute
-			background:
-				// image: url('../images/home-janna.jpg')
+			
 		.homeMainLeft
 			h2
 				background: $black
-				color: whie
+				color: white
+				font:
+					size: 16px
+				padding: 5px
+				display: inline-block
+				span
+					color: $blue
+			h2.first-child
+				border:
+					left: 6px solid $blue
+					top: 2px solid $blue
+					right: 2px solid $blue
+					bottom: 2px solid $blue
+
+
 	&.homeWidget
 		background:
 			color: $silver

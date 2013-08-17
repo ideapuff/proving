@@ -98,21 +98,41 @@ section.homeTop .row .actionBtn a.btnWhite {
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
-/* line 109, ../sass/main.sass */
+/* line 99, ../sass/main.sass */
+section.homeMain {
+  background-image: url("../images/home-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 107, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
-  color: whie;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  display: inline-block;
 }
-/* line 112, ../sass/main.sass */
+/* line 114, ../sass/main.sass */
+section.homeMain .homeMainLeft h2 span {
+  color: #256aa9;
+}
+/* line 116, ../sass/main.sass */
+section.homeMain .homeMainLeft h2.first-child {
+  border-left: 6px solid #256aa9;
+  border-top: 2px solid #256aa9;
+  border-right: 2px solid #256aa9;
+  border-bottom: 2px solid #256aa9;
+}
+/* line 124, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
 }
 
-/* line 116, ../sass/main.sass */
+/* line 128, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
 }
-/* line 119, ../sass/main.sass */
+/* line 131, ../sass/main.sass */
 header .row {
   margin-top: 10px;
 }

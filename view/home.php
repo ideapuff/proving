@@ -54,12 +54,10 @@
             </div>
         </header>
         <section class="homeMain">
-            <!-- <img src="public/images/home-jarvan.jpg" alt="" class="homeMainImageLeft"> -->
-            <!-- <img src="public/images/home-janna.jpg" alt="" class="homeMainImageRight"> -->
             <div class="row">
                 <div class="large-6 columns homeMainLeft">
                     <a name="learn-more"></a>
-                    <h2>It's all about <span>YOU</span>.</h2>
+                    <h2 class="first-child">It's all about <span>YOU</span>.</h2>
                     <p>We understand gaming is your profession. <br/>
                     You deserve a professional proﬁle too.</p>
                     <ul>
