@@ -16,7 +16,7 @@
         <!-- JS
         ================================================== -->
         <script src="../public/js/vendor/custom.modernizr.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="../public/js/jquery-1.7.2.min.js"></script> 
+        <script language="JavaScript" type="text/JavaScript" src="../public/js/jquery-1.7.2.min.js"></script>
         <script>
             $(document).ready(function() {
                 var browserHeight = $(window).height(); // returns height of browser viewport
@@ -38,7 +38,7 @@
         <section class="homeTop">
             <div class="row">
                 <div class="large-10 small-centered columns">
-                    <img class="logo" src="../public/images/proving-grounds.png" alt="">
+                    <img class="logo" src="../public/images/logo.png" alt="">
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
                     <h3>Nam ut magna risus. Cras vestibulum sagittis lacinia. Pellentesque et cursus velit, id pretium enim. Fusce vel mollis tortor. </h3>
                     <div class="actionBtn">
