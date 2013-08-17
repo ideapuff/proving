@@ -57,7 +57,7 @@ class System {
             throw new FrameworkException("Could not load action - $actionName.");
         }
         require_once $classPath;
-        
+
         $action = new $actionName;
         if (!$action instanceof IAction) {
             throw new FrameworkException("Object is not instance of IAction - $action.");
@@ -67,7 +67,8 @@ class System {
 
     public function getNode($xpath) {
         $xml = simplexml_load_file(BASE_DIR . '/config/config.xml');
-        return $xml->xpath($xpath)[0];
+        $node = $xml->xpath($xpath);
+        return $node[0];
     }
 
     function handleError($severity, $message, $filename, $lineno) {
