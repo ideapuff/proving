@@ -32,12 +32,14 @@ $blue: #256aa9
  * 		1.2. General Styles
  * ==================================================
 body
-	background: $black
+	background: url('../images/bg-pattern.png') $black
 	font:
 		family: "Lato", sans-serif
+		weight: 300
 
 h1, h2, h3, h4, h5, h6
 	font-family: "Lato", sans-serif
+	font-weight: 300
 p
 	color: white
 h1
@@ -46,10 +48,7 @@ h1
 h3
 	color: $gray
 
-a.btnWhite
-	border: 1px solid white
-	color: white
-	padding: 15px 30px
+
 
 /* 1. Site Styles
  * 		1.2. Navigation
@@ -65,34 +64,38 @@ a.btnWhite
 
 section
 	&.homeTop
-		background: black
 		height: 450px
 		// border: 1px solid red
 		text-align: center
 		position: relative
 		.row
 			position: relative
-			top: 10%
-		.logo
-			margin:
-				top: 50px
-		h1
-			color: white
-			span
-				color: $red
-		h3
-			font:
-				weight: normal
-		.actionBtn
-			margin:
-				top: 20px
-			padding:
-				top: 20px
-			height: 40px
-			a
-				margin: 0 10px
-			a:hover
-				background: $blue
+			top: 20%
+			.logo
+				margin:
+					top: 50px
+			h1
+				color: white
+				span
+					color: $red
+			h3
+
+			.actionBtn
+				margin:
+					top: 20px
+				padding:
+					top: 20px
+				height: 40px
+				a.btnWhite
+					border: 1px solid white
+					color: white
+					margin: 0 10px
+					padding: 15px 30px
+					font-weight: 700
+					text-transform: uppercase
+					letter-spacing: 1px
+				a.btnWhite:hover
+					background: $blue
 	&.homeMain
 		.homeMainLeft
 			// position: absolute
