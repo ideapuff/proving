@@ -16,7 +16,7 @@ if (isset($_REQUEST['action'])) {
 ob_start();
 
 try {
-    $action = System::getInstance()->getAction('TestAction');
+    $action = System::getInstance()->getAction($request_name);
     $action->execute();
 } catch (Exception $e) {
     $fe = new FrameworkException("Error in index.php.", $e);
