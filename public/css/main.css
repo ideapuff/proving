@@ -20,7 +20,7 @@
  * ================================================== */
 /* line 34, ../sass/main.sass */
 body {
-  background: url("../images/bg-pattern.png") #090a0b;
+  background: url("../images/bg-pattern-black.png") #090a0b;
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
@@ -34,16 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 43, ../sass/main.sass */
 p {
   color: white;
-}
-
-/* line 45, ../sass/main.sass */
-h1 {
-  color: white;
-}
-
-/* line 48, ../sass/main.sass */
-h3 {
-  color: #535c65;
+  font-weight: 300;
 }
 
 /* 1. Site Styles
@@ -55,36 +46,40 @@ h3 {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
-/* line 66, ../sass/main.sass */
+/* line 62, ../sass/main.sass */
 section.homeTop {
   height: 450px;
   text-align: center;
   position: relative;
 }
-/* line 71, ../sass/main.sass */
+/* line 67, ../sass/main.sass */
 section.homeTop .row {
   position: relative;
   top: 20%;
 }
-/* line 74, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 section.homeTop .row .logo {
   margin-top: 50px;
 }
-/* line 77, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 section.homeTop .row h1 {
   color: white;
 }
-/* line 79, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 section.homeTop .row h1 span {
   color: #bd0000;
 }
-/* line 83, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
+section.homeTop .row h3 {
+  color: #535c65;
+}
+/* line 79, ../sass/main.sass */
 section.homeTop .row .actionBtn {
   margin-top: 20px;
   padding-top: 20px;
   height: 40px;
 }
-/* line 89, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite {
   border: 1px solid white;
   color: white;
@@ -94,17 +89,17 @@ section.homeTop .row .actionBtn a.btnWhite {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 97, ../sass/main.sass */
+/* line 93, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
-/* line 99, ../sass/main.sass */
+/* line 95, ../sass/main.sass */
 section.homeMain {
   background-image: url("../images/home-main.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 107, ../sass/main.sass */
+/* line 103, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: white;
@@ -112,27 +107,27 @@ section.homeMain .homeMainLeft h2 {
   padding: 5px;
   display: inline-block;
 }
-/* line 114, ../sass/main.sass */
+/* line 110, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 span {
   color: #256aa9;
 }
-/* line 116, ../sass/main.sass */
+/* line 112, ../sass/main.sass */
 section.homeMain .homeMainLeft h2.first-child {
   border-left: 6px solid #256aa9;
   border-top: 2px solid #256aa9;
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 124, ../sass/main.sass */
+/* line 118, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
 }
 
-/* line 128, ../sass/main.sass */
+/* line 122, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
 }
-/* line 131, ../sass/main.sass */
+/* line 125, ../sass/main.sass */
 header .row {
   margin-top: 10px;
 }

@@ -50,24 +50,20 @@ class System {
         }
     }
 
-    public function getView($actionName) {
+    public function getView($viewName, $viewData = null) {
         try {
-            $simplexml_action = $this->getNode("actions/action[@name='" . $actionName . "']");
-            $actionPath = BASE_DIR . '/' . (string) $simplexml_action['path'];
-            if (!file_exists($actionPath)) {
-                throw new FrameworkException("Could not load action - $actionName.");
+            if ($viewData != null) {
+                foreach ($viewData as $key => $value) {
+                    $$key = $value;
+                }
             }
-            require_once $actionPath;
 
-            if (!preg_match_all('//([^/])\.php/', $actionPath, $matches)) {
-                throw new FrameworkException("Action path is not valid - $actionPath");
+            $simplexml_view = $this->getNode("views/view[@name='" . $viewName . "']");
+            $viewPath = BASE_DIR . '/' . (string) $simplexml_view['path'];
+            if (!file_exists($viewPath)) {
+                throw new FrameworkException("Could not load view - $viewName.");
             }
-            $class = $matches[0];
-            $action = new $class;
-            if (!$action instanceof IAction) {
-                throw new FrameworkException("Object is not instance of IAction - $action.");
-            }
-            return $action;
+            require_once $viewPath;
         } catch (Exception $e) {
             $fe = new FrameworkException("Error in Syste::getAction", $e);
             $fe->log();
@@ -89,7 +85,7 @@ class System {
             }
             $class = $matches[1][0];
             $action = new $class;
-            if (!$action instanceof IAction) {
+            if (!$action instanceof AbstractAction) {
                 throw new FrameworkException("Object is not instance of IAction - $action.");
             }
             return $action;

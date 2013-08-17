@@ -10,7 +10,7 @@
  *
  * @author xz71
  */
-class LogIn implements IAction {
+class LogIn extends AbstractAction {
 
     public function execute() {
         ;
