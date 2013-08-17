@@ -64,20 +64,43 @@ a.btnWhite
  * ==================================================
 
 section
+	&.homeTop
+		background: black
+		height: 450px
+		// border: 1px solid red
+		text-align: center
+		position: relative
+		.row
+			position: relative
+			top: 10%
+		.logo
+			margin:
+				top: 50px
+		h1
+			color: white
+			span
+				color: $red
+		h3
+			font:
+				weight: normal
+		.actionBtn
+			margin:
+				top: 20px
+			padding:
+				top: 20px
+			height: 40px
+			a
+				margin: 0 10px
+			a:hover
+				background: $blue
 	&.homeMain
-	.homeMainImageLeft
-		position: absolute
-	.homeMainImageRight
-		position: absolute
-
-	.homeMainLeft
-		// background:
-		// 	image: url('../images/home-jarvan.jpg')
-		// 	position: top right
-		// overflow: visible
-
-		h2
-			background: $black
-			color: whie
+		.homeMainImageLeft
+			position: absolute
+		.homeMainImageRight
+			position: absolute
+		.homeMainLeft
+			h2
+				background: $black
+				color: whie
 
 

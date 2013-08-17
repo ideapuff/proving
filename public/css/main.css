@@ -60,16 +60,58 @@ a.btnWhite {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
-/* line 68, ../sass/main.sass */
-section .homeMainImageLeft {
-  position: absolute;
+/* line 67, ../sass/main.sass */
+section.homeTop {
+  background: black;
+  height: 450px;
+  text-align: center;
+  position: relative;
 }
-/* line 70, ../sass/main.sass */
-section .homeMainImageRight {
-  position: absolute;
+/* line 73, ../sass/main.sass */
+section.homeTop .row {
+  position: relative;
+  top: 10%;
+}
+/* line 76, ../sass/main.sass */
+section.homeTop .logo {
+  margin-top: 50px;
 }
 /* line 79, ../sass/main.sass */
-section .homeMainLeft h2 {
+section.homeTop h1 {
+  color: white;
+}
+/* line 81, ../sass/main.sass */
+section.homeTop h1 span {
+  color: #bd0000;
+}
+/* line 83, ../sass/main.sass */
+section.homeTop h3 {
+  font-weight: normal;
+}
+/* line 86, ../sass/main.sass */
+section.homeTop .actionBtn {
+  margin-top: 20px;
+  padding-top: 20px;
+  height: 40px;
+}
+/* line 92, ../sass/main.sass */
+section.homeTop .actionBtn a {
+  margin: 0 10px;
+}
+/* line 94, ../sass/main.sass */
+section.homeTop .actionBtn a:hover {
+  background: #256aa9;
+}
+/* line 97, ../sass/main.sass */
+section.homeMain .homeMainImageLeft {
+  position: absolute;
+}
+/* line 99, ../sass/main.sass */
+section.homeMain .homeMainImageRight {
+  position: absolute;
+}
+/* line 102, ../sass/main.sass */
+section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: whie;
 }
