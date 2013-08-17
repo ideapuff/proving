@@ -54,8 +54,10 @@
             </div>
         </header>
         <section class="homeMain">
+            <!-- <img src="public/images/home-jarvan.jpg" alt="" class="homeMainImageLeft"> -->
+            <!-- <img src="public/images/home-janna.jpg" alt="" class="homeMainImageRight"> -->
             <div class="row">
-                <div class="large-6 columns">
+                <div class="large-6 columns homeMainLeft">
                     <a name="learn-more"></a>
                     <h2>It's all about <span>YOU</span>.</h2>
                     <p>We understand gaming is your profession. <br/>
@@ -76,7 +78,7 @@
                     <p>Simple, clear and fast. That’s all you want, and we get it for you.</p>
                     <a href="">Sign-in</a>
                 </div>
-                <div class="large-6 columns">
+                <div class="large-6 columns homeMainRight">
                     <h2>Powerful FILTER SEARCH.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
                     <h2>It's all about YOU.</h2>
