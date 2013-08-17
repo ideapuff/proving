@@ -10,6 +10,7 @@
     </classes>
     <actions>
         <action name="testAction" path="action/TestAction.php" />
+        <action name="home" path="action/HomeAction.php" />
     </actions>
     <views>
         <view name="testView" path="view/testView.php" />

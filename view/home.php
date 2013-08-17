@@ -11,26 +11,26 @@
         <meta name="viewport" content="width=device-width">
         <!-- CSS
         ================================================== -->
-        <link rel="stylesheet" href="../public/css/app.css">
-        <link rel="stylesheet" href="../public/css/main.css">
+        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/app.css">
+        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/main.css">
         <!-- JS
         ================================================== -->
-        <script src="../public/js/vendor/custom.modernizr.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="../public/js/jquery-1.7.2.min.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="../public/js/homepage.js"></script>
+        <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
         
         <!-- Favicons
         ================================================== -->
-        <link rel="shortcut icon" href="../public/images/favicon.ico">
-        <link rel="apple-touch-icon" href="../public/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../public/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../public/images/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="<?= BASE_URL?>/public/images/favicon.ico">
+        <link rel="apple-touch-icon" href="<?= BASE_URL?>/public/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL?>/public/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL?>/public/images/apple-touch-icon-114x114.png">
     </head>
     <body>
         <section class="homeTop">
             <div class="row">
                 <div class="large-10 small-centered columns">
-                    <img class="logo" src="../public/images/proving-grounds.png" alt="">
+                    <img class="logo" src="<?= BASE_URL?>/public/images/proving-grounds.png" alt="">
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
                     <h3>Nam ut magna risus. Cras vestibulum sagittis lacinia. Pellentesque et cursus velit, id pretium enim. Fusce vel mollis tortor. </h3>
                     <div class="actionBtn">

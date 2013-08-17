@@ -102,14 +102,6 @@ section.homeTop .actionBtn a {
 section.homeTop .actionBtn a:hover {
   background: #256aa9;
 }
-/* line 97, ../sass/main.sass */
-section.homeMain .homeMainImageLeft {
-  position: absolute;
-}
-/* line 99, ../sass/main.sass */
-section.homeMain .homeMainImageRight {
-  position: absolute;
-}
 /* line 102, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
