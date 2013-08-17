@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <globals>
-        <global name="BASE_URL" value="http://localhost/proving/" />
+        <global name="BASE_URL" value="http://localhost:8888/proving/" />
     </globals>
     <classes>
         <class name="IAction" path="model/IAction.php" />
+        <class name="AbstractAction" path="model/AbstractAction.php" />
         <class name="TestModel" path="model/TestModel.php" />
     </classes>
     <actions>
-        <action name="testAction" class="TestAction" path="action/TestAction.php" />
+        <action name="testAction" path="action/TestAction.php" />
+        <action name="home" path="action/HomeAction.php" />
     </actions>
+    <views>
+        <view name="testView" path="view/testView.php" />
+    </views>
 </config>

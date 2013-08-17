@@ -98,16 +98,17 @@ section.homeTop .row .actionBtn a.btnWhite {
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
-/* line 100, ../sass/main.sass */
-section.homeMain .homeMainImageLeft {
-  position: absolute;
-}
-/* line 102, ../sass/main.sass */
-section.homeMain .homeMainImageRight {
-  position: absolute;
-}
 /* line 105, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: whie;
+}
+
+/* line 109, ../sass/main.sass */
+header.topNav {
+  border-top: 10px solid red;
+}
+/* line 112, ../sass/main.sass */
+header .row {
+  margin-top: 10px;
 }

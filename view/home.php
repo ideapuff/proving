@@ -11,67 +11,73 @@
         <meta name="viewport" content="width=device-width">
         <!-- CSS
         ================================================== -->
-        <link rel="stylesheet" href="../public/css/app.css">
-        <link rel="stylesheet" href="../public/css/main.css">
+        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/app.css">
+        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/main.css">
         <!-- JS
         ================================================== -->
-        <script src="../public/js/vendor/custom.modernizr.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="../public/js/jquery-1.7.2.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                var browserHeight = $(window).height(); // returns height of browser viewport
-                $('.homeTop').css('height', browserHeight);
-                $(window).on('resize', function() {
+        <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
 
-                    $('.homeTop').css('height', browserHeight);
-                });
-            })
-        </script>
         <!-- Favicons
         ================================================== -->
-        <link rel="shortcut icon" href="../public/images/favicon.ico">
-        <link rel="apple-touch-icon" href="../public/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../public/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../public/images/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="<?= BASE_URL?>/public/images/favicon.ico">
+        <link rel="apple-touch-icon" href="<?= BASE_URL?>/public/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL?>/public/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL?>/public/images/apple-touch-icon-114x114.png">
     </head>
     <body>
         <section class="homeTop">
             <div class="row">
                 <div class="large-10 small-centered columns">
-                    <img class="logo" src="../public/images/logo.png" alt="">
+                    <img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt="">
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
                     <h3>Nam ut magna risus. Cras vestibulum sagittis lacinia. Pellentesque et cursus velit, id pretium enim. Fusce vel mollis tortor. </h3>
                     <div class="actionBtn">
-                        <a href="" class="btnWhite">Learn More</a>
-                        <a href="" class="btnWhite">Get Started</a>
+                        <a href="#learn-more" class="btnWhite">Learn More</a>
+                        <a href="#get-started" class="btnWhite">Get Started</a>
                     </div>
                 </div>
             </div>
         </section>
-        <header class="row">
-            <div class="large-7 columns"><img src="" alt="">logo</div>
-            <nav class="large-5 columns">
-                <ul class="large-block-grid-4">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Sign-in</a></li>
-                    <li><a href="">Forum</a></li>
-                    <li><a href="">Search</a></li>
-                </ul>
-            </nav>
+        <header class="topNav">
+            <div class="row">
+                <div class="large-7 columns"><img src="" alt="">logo</div>
+                <nav class="large-5 columns">
+                    <ul class="large-block-grid-4">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Sign-in</a></li>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Search</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <section class="homeMain">
             <div class="row">
                 <div class="large-6 columns">
-                    <h2>It's all about YOU.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
-                    <h2>It's all about YOU.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
-                    <h2>It's all about YOU.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
+                    <a name="learn-more"></a>
+                    <h2>It's all about <span>YOU</span>.</h2>
+                    <p>We understand gaming is your profession. <br/>
+                    You deserve a professional proﬁle too.</p>
+                    <ul>
+                        <li>customizable proﬁle page</li>
+                        <li>inbox</li>
+                        <li>freind list</li>
+                    </ul>
+                    <h2>Get the right <span>TEAMMATES</span>.</h2>
+                    <p>You will get a professional proﬁle page. We understand gaming is your profession. You deserve a professional proﬁle too. </p>
+                    <ul>
+                        <li>Team page &amp; communication</li>
+                        <li>community</li>
+                        <li>freind list</li>
+                    </ul>
+                    <h2>It’s all realtime <span>ACTIVITY FEED</span>.</h2>
+                    <p>Simple, clear and fast. That’s all you want, and we get it for you.</p>
                     <a href="">Sign-in</a>
                 </div>
                 <div class="large-6 columns">
-                    <h2>It's all about YOU.</h2>
+                    <h2>Powerful FILTER SEARCH.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
                     <h2>It's all about YOU.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
@@ -120,9 +126,9 @@
             </div>
         </footer>
         <script>
-            document.write('<script src=' +
-                    ('__proto__' in {} ? 'public/js/vendor/zepto' : 'public/js/vendor/jquery') +
-                    '.js><\/script>')
+        document.write('<script src=' +
+        ('__proto__' in {} ? 'public/js/vendor/zepto' : 'public/js/vendor/jquery') +
+        '.js><\/script>')
         </script>
         <script src="public/js/foundation/foundation.js"></script>
         <script src="public/js/foundation/foundation.abide.js"></script>
@@ -134,7 +140,7 @@
         <script src="public/js/foundation/foundation.section.js"></script>
         <script src="public/js/foundation/foundation.tooltips.js"></script>
         <script>
-            $(document).foundation();
+        $(document).foundation();
         </script>
     </body>
 </html>
