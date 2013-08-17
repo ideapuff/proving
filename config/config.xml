@@ -9,11 +9,23 @@
         <class name="TestModel" path="model/TestModel.php" />
     </classes>
     <actions>
-        <action name="testAction" path="action/TestAction.php" />
+        <action name="dashboard" path="action/DashboardAction.php" />
         <action name="home" path="action/HomeAction.php" />
+        <action name="login" path="action/LoginAction.php" />
+        <action name="profile" path="action/ProfileAction.php" />
+        <action name="registration" path="action/RegistrationAction.php" />
+        <action name="search" path="action/SearchAction.php" />
+        <action name="team" path="action/TeamAction.php" />
+        <action name="teamCreation" path="action/TeamCreationAction.php" />
     </actions>
     <views>
-        <view name="testView" path="view/testView.php" />
+        <view name="dashboard" path="view/dashboard.php" />
         <view name="home" path="view/home.php" />
+        <view name="login" path="view/login.php" />
+        <view name="profile" path="view/profile.php" />
+        <view name="registration" path="view/registration.php" />
+        <view name="search" path="view/search.php" />
+        <view name="team" path="view/team.php" />
+        <view name="teamCreation" path="view/teamCreation.php" />
     </views>
 </config>
