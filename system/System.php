@@ -50,19 +50,54 @@ class System {
         }
     }
 
-    public function getAction($actionName) {
-        $simplexml_action = $this->getNode("actions/action[@name='" . $actionName . "']");
-        $classPath = BASE_DIR . '/' . (string) $simplexml_action['path'];
-        if (!file_exists($classPath)) {
-            throw new FrameworkException("Could not load action - $actionName.");
-        }
-        require_once $classPath;
+    public function getView($actionName) {
+        try {
+            $simplexml_action = $this->getNode("actions/action[@name='" . $actionName . "']");
+            $actionPath = BASE_DIR . '/' . (string) $simplexml_action['path'];
+            if (!file_exists($actionPath)) {
+                throw new FrameworkException("Could not load action - $actionName.");
+            }
+            require_once $actionPath;
 
-        $action = new $actionName;
-        if (!$action instanceof IAction) {
-            throw new FrameworkException("Object is not instance of IAction - $action.");
+            if (!preg_match_all('//([^/])\.php/', $actionPath, $matches)) {
+                throw new FrameworkException("Action path is not valid - $actionPath");
+            }
+            $class = $matches[0];
+            $action = new $class;
+            if (!$action instanceof IAction) {
+                throw new FrameworkException("Object is not instance of IAction - $action.");
+            }
+            return $action;
+        } catch (Exception $e) {
+            $fe = new FrameworkException("Error in Syste::getAction", $e);
+            $fe->log();
+            throw $fe;
         }
-        return $action;
+    }
+
+    public function getAction($actionName) {
+        try {
+            $simplexml_action = $this->getNode("actions/action[@name='" . $actionName . "']");
+            $actionPath = BASE_DIR . '/' . (string) $simplexml_action['path'];
+            if (!file_exists($actionPath)) {
+                throw new FrameworkException("Could not load action - $actionName.");
+            }
+            require_once $actionPath;
+
+            if (!preg_match_all('/\/([^\/]*)\.php/', $actionPath, $matches)) {
+                throw new FrameworkException("Action path is not valid - $actionPath");
+            }
+            $class = $matches[1][0];
+            $action = new $class;
+            if (!$action instanceof IAction) {
+                throw new FrameworkException("Object is not instance of IAction - $action.");
+            }
+            return $action;
+        } catch (Exception $e) {
+            $fe = new FrameworkException("Error in Syste::getAction", $e);
+            $fe->log();
+            throw $fe;
+        }
     }
 
     public function getNode($xpath) {
