@@ -37,16 +37,6 @@ p {
   font-weight: 300;
 }
 
-/* line 46, ../sass/main.sass */
-h1 {
-  color: white;
-}
-
-/* line 49, ../sass/main.sass */
-h3 {
-  color: #535c65;
-}
-
 /* 1. Site Styles
  * 		1.2. Navigation
  * ================================================== */
@@ -56,36 +46,40 @@ h3 {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
-/* line 67, ../sass/main.sass */
+/* line 62, ../sass/main.sass */
 section.homeTop {
   height: 450px;
   text-align: center;
   position: relative;
 }
-/* line 72, ../sass/main.sass */
+/* line 67, ../sass/main.sass */
 section.homeTop .row {
   position: relative;
   top: 20%;
 }
-/* line 75, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 section.homeTop .row .logo {
   margin-top: 50px;
 }
-/* line 78, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 section.homeTop .row h1 {
   color: white;
 }
-/* line 80, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 section.homeTop .row h1 span {
   color: #bd0000;
 }
-/* line 84, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
+section.homeTop .row h3 {
+  color: #535c65;
+}
+/* line 79, ../sass/main.sass */
 section.homeTop .row .actionBtn {
   margin-top: 20px;
   padding-top: 20px;
   height: 40px;
 }
-/* line 90, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite {
   border: 1px solid white;
   color: white;
@@ -95,25 +89,25 @@ section.homeTop .row .actionBtn a.btnWhite {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 98, ../sass/main.sass */
+/* line 93, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
-/* line 110, ../sass/main.sass */
+/* line 105, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: whie;
 }
-/* line 113, ../sass/main.sass */
+/* line 109, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
 }
 
-/* line 117, ../sass/main.sass */
+/* line 113, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
 }
-/* line 120, ../sass/main.sass */
+/* line 116, ../sass/main.sass */
 header .row {
   margin-top: 10px;
 }
