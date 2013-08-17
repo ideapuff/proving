@@ -5,7 +5,7 @@
  *
  * @author xz71
  */
-abstract class AbstractAction implements IAction {
+abstract class AbstractAction {
 
     abstract function execute();
 
