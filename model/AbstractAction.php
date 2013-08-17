@@ -14,7 +14,7 @@ abstract class AbstractAction implements IAction {
         exit();
     }
 
-    protected function loadView($view, $data) {
+    protected function loadView($view, $data = null) {
         System::getInstance()->getView($view, $data);
         exit();
     }

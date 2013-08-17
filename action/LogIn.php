@@ -10,12 +10,10 @@
  *
  * @author xz71
  */
-class LogIn extends AbstractAction {
+class LoginAction extends AbstractAction {
 
     public function execute() {
         ;
     }
 
 }
-
-?>

@@ -14,5 +14,6 @@
     </actions>
     <views>
         <view name="testView" path="view/testView.php" />
+        <view name="home" path="view/home.php" />
     </views>
 </config>
