@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <globals>
-        <global name="BASE_URL" value="http://localhost:8888/proving/" />
+        <global name="BASE_URL" value="http://localhost/proving/" />
     </globals>
     <classes>
         <class name="IAction" path="model/IAction.php" />
