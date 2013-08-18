@@ -28,6 +28,18 @@ $(document).ready(function() {
         $('.homeSignup').hide();
     });
     
+    $(document).on('click','.dontHaveAccount', function(){
+        $('.homeSignin').hide();
+        $('.homeMain').hide();
+        $('.homeSignup').show();
+    });
+    
+    $(document).on('click','.learnMore', function(){
+        $('.homeSignin').hide();
+        $('.homeMain').show();
+        $('.homeSignup').hide();
+    });
+    
  
 
 });

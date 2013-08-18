@@ -35,8 +35,8 @@
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
                     <h3>Right teammates meet Right here, an easiest way to find the best teammates. Real life activity feed on your dashboard about your friend, your team, your community, and the people you followed.</h3>
                     <div class="actionBtn">
-                        <a href="#learn-more" class="btnWhite">Learn More</a>
-                        <a href="#get-started" class="btnWhite">Get Started</a>
+                        <a href="#learn-more" class="btnWhite learnMore">Learn More</a>
+                        <a href="#sign-up" class="btnWhite getStarted">Get Started</a>
                     </div>
                 </div>
             </div>

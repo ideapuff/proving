@@ -12,12 +12,12 @@ include 'includes/header.php';
             <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
 
             <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us, your character information could not be used by other users anymore.</p>
+            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member</p>
             <a href="">Sign-in</a>
         </div>
         <div class="large-2 columns">
             <div class="homeMainCenter">
-                <img class="circle" src="<?= BASE_URL ?>/public/images/home-circle-get-started.png" alt="">
+                <img class="circle getStarted" src="<?= BASE_URL ?>/public/images/home-circle-get-started.png" alt="">
             </div>
         </div>
         <div class="large-5 columns homeMainRight">
@@ -26,8 +26,8 @@ include 'includes/header.php';
             <h2>It's all about YOU.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
             <h2>It's all about YOU.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
-            <a href="">Get Started</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, </p>
+            <a href="#sign-up" class="getStarted">Get Started</a>
         </div>
     </div>
 </section>
@@ -42,7 +42,7 @@ include 'includes/header.php';
             <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
 
             <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us, your character information could not be used by other users anymore.</p>
+            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us</p>
 
         </div>
         <div class="large-2 columns">
@@ -84,7 +84,7 @@ include 'includes/header.php';
                             <input type="submit" class="btnWhite" value="JOIN NOW">
                         </div>
                         <div class="large-6 columns">
-                            <a href="">Already have an account?</a>
+                            <a href="#sign-in" class="haveAccount">Already have an account?</a>
                         </div>
                     </div>
                 </div>
@@ -114,10 +114,10 @@ include 'includes/header.php';
                 <div class="actionBtn">
                     <div class="row">
                         <div class="large-6 columns">
-                            <input type="submit" class="btnWhite" value="JOIN NOW">
+                            <input type="submit" class="btnWhite" value="Sign In">
                         </div>
                         <div class="large-6 columns">
-                            <a href="">Don't have an account?</a>
+                            <a href="#sign-up" class="dontHaveAccount">Don't have an account?</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ include 'includes/header.php';
             <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
 
             <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us, your character information could not be used by other users anymore.</p>
+            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us.</p>
         </div>
     </div>
 </section>
