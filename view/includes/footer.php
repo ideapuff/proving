@@ -42,6 +42,13 @@ document.write('<script src=' +
 <script src="public/js/foundation/foundation.tooltips.js"></script>
 <script>
 $(document).foundation();
+
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            $(".scollOffset").css("padding", "100px");
+        });
+    });
+
 </script>
 </body>
 </html>

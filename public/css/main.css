@@ -551,21 +551,54 @@ section.mainContent .mainContainer section {
   margin-bottom: 20px;
 }
 
+/*  registration
+ * ================================================== */
+/* line 448, ../sass/main.sass */
+section.registrationMain legend {
+  font-size: 1.5em;
+  background-color: transparent;
+  color: white;
+}
+/* line 452, ../sass/main.sass */
+section.registrationMain select {
+  border: 1px solid #cccccc;
+  height: 2em;
+}
+/* line 455, ../sass/main.sass */
+section.registrationMain .row {
+  margin-bottom: 10px;
+}
+/* line 457, ../sass/main.sass */
+section.registrationMain .btnWhite {
+  border: 1px solid white;
+  color: white;
+  margin: 0px;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #090a0b;
+}
+/* line 466, ../sass/main.sass */
+section.registrationMain .btnWhite:hover {
+  background: #256aa9;
+}
+
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 448, ../sass/main.sass */
+/* line 473, ../sass/main.sass */
 .profileMain hr {
   border: 1px solid rgba(192, 192, 192, 0.1);
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 453, ../sass/main.sass */
+/* line 478, ../sass/main.sass */
 .profileMain h2 {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 456, ../sass/main.sass */
+/* line 481, ../sass/main.sass */
 .profileMain .profileStatus {
   background: url("../images/bg-pattern-black.png") #090a0b;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
@@ -573,33 +606,33 @@ section.mainContent .mainContainer section {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin: 40px 0 20px 0;
 }
-/* line 460, ../sass/main.sass */
+/* line 485, ../sass/main.sass */
 .profileMain .profileStatus .diamond {
   margin-top: -25px;
 }
-/* line 462, ../sass/main.sass */
+/* line 487, ../sass/main.sass */
 .profileMain .profileStatus h5 {
   color: #535c65;
   margin-bottom: 20px;
   font-weight: 500;
 }
-/* line 466, ../sass/main.sass */
+/* line 491, ../sass/main.sass */
 .profileMain .profileStatus .large-12 {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 474, ../sass/main.sass */
+/* line 499, ../sass/main.sass */
 .profileMain .profileNumbers div {
   border-right: 1px solid rgba(192, 192, 192, 0.1);
   margin-bottom: 20px;
 }
-/* line 477, ../sass/main.sass */
+/* line 502, ../sass/main.sass */
 .profileMain .profileNumbers div h2 {
   margin-top: 20px;
   margin-bottom: 0;
   displa: inline;
 }
-/* line 483, ../sass/main.sass */
+/* line 508, ../sass/main.sass */
 .profileMain .profileNumbers div h5 {
   margin-top: 0;
   margin-bottom: 20px;

@@ -8,7 +8,7 @@ System::getInstance();
 
 session_start();
 
-$request_name = '';
+$request_name = 'home';
 if (isset($_REQUEST['action'])) {
     $request_name = $_REQUEST['action'];
 }

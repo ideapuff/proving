@@ -63,12 +63,13 @@
                 <? else:?>
                 <nav class="large-5 columns">
                     <ul class="inline-list right">
-                        <li><a href="<?= BASE_URL?>/dashboard">Home</a></li>
+                        <!--<li><a href="<?= BASE_URL?>/dashboard">Home</a></li>-->
                         <li><a href="<?= BASE_URL?>/profile">Me</a></li>
                         <li><a href="<?= BASE_URL?>/summoners">Summoners</a></li>
                         <li><a href="<?= BASE_URL?>/team">Team</a></li>
                         <!-- <li><a href="<?= BASE_URL?>/inbox">Inbox</a></li> -->
                         <li><a href="<?= BASE_URL?>/forum">Forum</a></li>
+                        <li><a href="<?= BASE_URL?>/home">Logout</a></li>
                         <li><a href=""><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
