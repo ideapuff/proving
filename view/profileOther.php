@@ -33,15 +33,15 @@ include 'includes/header.php';
 				<div class="row profileNumbers text-center">
 					<hr>
 					<div class="small-4 columns">
-						<h2>41</h2>
+						<h2>14</h2>
 						<h5>Followers</h5>
 					</div>
 					<div class="small-4 columns">
-						<h2>82</h2>
+						<h2>28</h2>
 						<h5>Following</h5>
 					</div>
 					<div class="small-4 columns" style="border-right: 0;">
-						<h2>277</h2>
+						<h2>27</h2>
 						<h5>Honors</h5>
 					</div>
 					<hr>
