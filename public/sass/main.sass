@@ -104,7 +104,17 @@ footer
 			&:hover
 				color: $blue
 
-
+a.btnWhite, input.btnWhite
+	border: 1px solid white
+	color: white
+	padding: 15px 30px
+	font-weight: 700
+	text-transform: uppercase
+	letter-spacing: 1px
+	background: $black
+	+fade(background, 0.2s)
+	&:hover
+		background: $blue
 
 
 /* 1. Site Styles
@@ -142,18 +152,10 @@ section
 				padding:
 					top: 20px
 				height: 40px
-				a.btnWhite
-					border: 1px solid white
-					color: white
-					margin: 0 10px
-					padding: 15px 30px
-					font-weight: 700
-					text-transform: uppercase
-					letter-spacing: 1px
-					background: $black
-					+fade(background, 0.2s)
-					&:hover
-						background: $blue
+			a.btnWhite
+				margin: 0 10px
+
+
 
 section.homeMain
 	background:
@@ -268,23 +270,13 @@ section.homeSignup
 				size: 28px
 			padding: 10px 0px
 			display: inline-block
-		.btnWhite
-			border: 1px solid white
-			color: white
-			margin: 0px
-			padding: 15px 30px
-			font-weight: 700
-			text-transform: uppercase
-			letter-spacing: 1px
-			background-color: $black
-		.btnWhite:hover
-			background: $blue
 		.actionBtn a
 			color: white
 			padding: 15px 0px
 			line-height: 40px
 		.actionBtn a:hover
 			text-decoration: underline
+
 
 section.homeSignin
 	background:
@@ -304,17 +296,6 @@ section.homeSignin
 				size: 28px
 			padding: 10px 0px
 			display: inline-block
-		.btnWhite
-			border: 1px solid white
-			color: white
-			margin: 0px
-			padding: 15px 30px
-			font-weight: 700
-			text-transform: uppercase
-			letter-spacing: 1px
-			background-color: $black
-		.btnWhite:hover
-			background: $blue
 		.actionBtn a
 			color: white
 			padding: 15px 0px
@@ -459,3 +440,48 @@ section.mainContent
 			+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))
 			padding: 20px
 			margin-bottom: 20px
+
+/* 2. Page Styles
+ * 		1.2. Dashboard
+ * ==================================================
+.profileMain
+	hr
+		border: 1px solid transparentize(silver, 0.9)
+		margin:
+			left: 20px
+			right: 20px
+	h2
+		font-weight: 500
+		margin-bottom: 0
+	.profileStatus
+		background: url("../images/bg-pattern-black.png") $black
+		+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))
+		margin: 40px 0 20px 0
+		.diamond
+			margin-top: -25px
+		h5
+			color: $gray
+			margin-bottom: 20px
+			font-weight: 500
+		.large-12
+			padding:
+				left: 40px
+				right: 40px
+	.profileNumbers
+		// border:
+		// 	top: 1px solid transparentize(silver, 0.9)
+		// 	bottom: 1px solid transparentize(silver, 0.9)
+		div
+			border-right: 1px solid transparentize(silver, 0.9)
+			margin-bottom: 20px
+			h2
+				margin:
+					top: 20px
+					bottom: 0
+				displa: inline
+				// border-right: 1px solid transparentize(silver, 0.9)
+			h5
+				margin:
+					top: 0
+					bottom: 20px
+				// border-right: 1px solid transparentize(silver, 0.9)
