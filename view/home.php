@@ -13,21 +13,21 @@ include 'includes/header.php';
 
             <h2><span>Report and Verify</span> System.</h2>
             <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member</p>
-            <a href="">Sign-in</a>
+            <a href=""><span class="icon-left-dir"></span> Sign-in</a>
         </div>
         <div class="large-2 columns">
             <div class="homeMainCenter">
                 <img class="circle getStarted" src="<?= BASE_URL ?>/public/images/home-circle-get-started.png" alt="">
             </div>
         </div>
-        <div class="large-5 columns homeMainRight">
+        <div class="large-5 columns homeMainRight text-right">
             <h2 class="first-child">Powerful <span>FILTER SEARCH</span>.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
             <h2>It's all about YOU.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
             <h2>It's all about YOU.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, </p>
-            <a href="#sign-up" class="getStarted">Get Started</a>
+            <a href="#sign-up" class="getStarted">Get Started <span class="icon-right-dir"></span></a>
         </div>
     </div>
 </section>

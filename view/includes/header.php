@@ -53,23 +53,24 @@
                 </div>
                 <?php if(isset($page) && $page=="home"):?>
                 <nav class="large-5 columns">
-                    <ul class="large-block-grid-4">
+                    <ul class="inline-list right">
                         <li><a href="<?= BASE_URL?>/home#about">About</a></li>
                         <li><a href="<?= BASE_URL?>/home#sign-in" class="haveAccount">Sign-in</a></li>
                         <li><a href="">Forum</a></li>
-                        <li><a href="">Search</a></li>
+                        <li><a href=""><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
                 <? else:?>
                 <nav class="large-5 columns">
-                    <ul class="large-block-grid-4">
-                        <li><a href="">Profile</a></li>
-                        <li><a href="">Achievements</a></li>
+                    <ul class="inline-list right">
+                        <li><a href="">Me</a></li>
+                        <li><a href="">Summoners</a></li>
+                        <li><a href="">Inbox</a></li>
                         <li><a href="">Forum</a></li>
-                        <li><a href="">Search</a></li>
+                        <li><a href=""><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
                 <?php endif;?>
             </div>
         </header>
-        
+
