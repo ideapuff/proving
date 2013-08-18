@@ -4,7 +4,7 @@ include 'includes/header.php';
 <section class="homeMain">
     <div class="row">
         <div class="large-5 columns homeMainLeft">
-            <a name="learn-more"></a>
+            <a name="learn-more" class="anchorOffset"></a>
             <h2 class="first-child">All about <span>YOU</span>.</h2>
             <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
 
@@ -34,7 +34,7 @@ include 'includes/header.php';
 <section class="homeSignup">
     <div class="row">
         <div class="large-5 columns homeSignupLeft">
-            <a name="sign-up"></a>
+            <a name="sign-up" class="anchorOffset"></a>
             <h2 class="first-child">All about <span>YOU</span>.</h2>
             <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
 
@@ -95,9 +95,9 @@ include 'includes/header.php';
 <section class="homeSignin">
     <div class="row">
         <div class="large-5 columns homeSigninLeft">
-            <a name="sign-in"></a>
+            <a name="sign-in" class="anchorOffset"></a>
             <h2 class="first-child">Welcome Back.</h2>
-            
+
             <form>
                 <div class="row">
                     <div class="large-12 columns">
@@ -168,6 +168,7 @@ include 'includes/header.php';
     </div>
 </section>
 <section class="homeAbout">
+    <a name="about"></a>
     <div class="row">
         <div class="large-12 columns">
             <h2>About <span>Proving Grounds</span></h2>

@@ -31,7 +31,7 @@
         <section class="homeTop">
             <div class="row">
                 <div class="large-10 small-centered columns">
-                    <img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt="">
+                    <a href="<?= BASE_URL?>/home"><img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt=""></a>
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
                     <h3>Right teammates meet Right here, an easiest way to find the best teammates. Real life activity feed on your dashboard about your friend, your team, your community, and the people you followed.</h3>
                     <div class="actionBtn">
@@ -45,19 +45,30 @@
         <header class="topNav" data-magellan-expedition="fixed">
             <div class="row">
                 <div class="large-5 columns">
-                    <img src="<?= BASE_URL?>/public/images/logo.png" alt="">
+                    <a href="<?= BASE_URL?>/home"><img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt=""></a>
                 </div>
                 <div class="large-2 columns text-center">
                     <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
                 </div>
+                <?php if(isset($page) && $page=="home"):?>
                 <nav class="large-5 columns">
                     <ul class="large-block-grid-4">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Sign-in</a></li>
+                        <li><a href="<?= BASE_URL?>/home#about">About</a></li>
+                        <li><a href="<?= BASE_URL?>/home#sign-in" class="haveAccount">Sign-in</a></li>
                         <li><a href="">Forum</a></li>
                         <li><a href="">Search</a></li>
                     </ul>
                 </nav>
+                <? else:?>
+                <nav class="large-5 columns">
+                    <ul class="large-block-grid-4">
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Achievements</a></li>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Search</a></li>
+                    </ul>
+                </nav>
+                <?php endif;?>
             </div>
         </header>
         

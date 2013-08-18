@@ -48,39 +48,44 @@ p {
  * 		1.1. Home
  * ================================================== */
 /* line 63, ../sass/main.sass */
+section .anchorOffset {
+  position: absolute;
+  top: -145px;
+}
+/* line 66, ../sass/main.sass */
 section.homeTop {
   height: 450px;
   text-align: center;
   position: relative;
 }
-/* line 68, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 section.homeTop .row {
   position: relative;
   top: 10%;
 }
-/* line 71, ../sass/main.sass */
+/* line 74, ../sass/main.sass */
 section.homeTop .row .logo {
   margin-top: 50px;
 }
-/* line 74, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 section.homeTop .row h1 {
   color: white;
 }
-/* line 76, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 section.homeTop .row h1 span {
   color: #bd0000;
 }
-/* line 78, ../sass/main.sass */
+/* line 81, ../sass/main.sass */
 section.homeTop .row h3 {
   color: #535c65;
 }
-/* line 80, ../sass/main.sass */
+/* line 83, ../sass/main.sass */
 section.homeTop .row .actionBtn {
   margin-top: 20px;
   padding-top: 20px;
   height: 40px;
 }
-/* line 86, ../sass/main.sass */
+/* line 89, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite {
   border: 1px solid white;
   color: white;
@@ -91,11 +96,11 @@ section.homeTop .row .actionBtn a.btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 95, ../sass/main.sass */
+/* line 98, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
-/* line 97, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 section.homeMain {
   background-image: url("../images/slide.jpg");
   background-position: top center;
@@ -106,12 +111,12 @@ section.homeMain {
   min-height: 526px;
   min-width: 1300px;
 }
-/* line 110, ../sass/main.sass */
+/* line 113, ../sass/main.sass */
 section.homeMain .upperDiamond {
   position: absolute;
   top: 0px;
 }
-/* line 114, ../sass/main.sass */
+/* line 117, ../sass/main.sass */
 section.homeMain .homeMainRight h2 {
   background: #090a0b;
   color: white;
@@ -123,19 +128,19 @@ section.homeMain .homeMainRight h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 126, ../sass/main.sass */
+/* line 129, ../sass/main.sass */
 section.homeMain .homeMainRight h2 span {
   color: #bd0000;
 }
-/* line 128, ../sass/main.sass */
+/* line 131, ../sass/main.sass */
 section.homeMain .homeMainRight h2.first-child {
   margin-top: 20px;
 }
-/* line 130, ../sass/main.sass */
+/* line 133, ../sass/main.sass */
 section.homeMain .homeMainRight p {
   margin-left: 30px;
 }
-/* line 134, ../sass/main.sass */
+/* line 137, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: white;
@@ -147,31 +152,31 @@ section.homeMain .homeMainLeft h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 146, ../sass/main.sass */
+/* line 149, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 span {
   color: #256aa9;
 }
-/* line 148, ../sass/main.sass */
+/* line 151, ../sass/main.sass */
 section.homeMain .homeMainLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 150, ../sass/main.sass */
+/* line 153, ../sass/main.sass */
 section.homeMain .homeMainLeft p {
   margin-left: 30px;
 }
-/* line 155, ../sass/main.sass */
+/* line 158, ../sass/main.sass */
 section.homeMain .homeMainCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 160, ../sass/main.sass */
+/* line 163, ../sass/main.sass */
 section.homeMain .homeMainCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 163, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 section.homeSignup {
   background-image: url("../images/signup-slide.jpg");
   background-position: top center;
@@ -182,7 +187,7 @@ section.homeSignup {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 175, ../sass/main.sass */
+/* line 178, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 {
   background: #090a0b;
   color: white;
@@ -194,38 +199,38 @@ section.homeSignup .homeSignupLeft h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 187, ../sass/main.sass */
+/* line 190, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 span {
   color: #bd0000;
 }
-/* line 189, ../sass/main.sass */
+/* line 192, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 191, ../sass/main.sass */
+/* line 194, ../sass/main.sass */
 section.homeSignup .homeSignupLeft p {
   margin-left: 30px;
 }
-/* line 196, ../sass/main.sass */
+/* line 199, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 201, ../sass/main.sass */
+/* line 204, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 205, ../sass/main.sass */
+/* line 208, ../sass/main.sass */
 section.homeSignup .homeSignupRight h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 211, ../sass/main.sass */
+/* line 214, ../sass/main.sass */
 section.homeSignup .homeSignupRight .btnWhite {
   border: 1px solid white;
   color: white;
@@ -236,21 +241,21 @@ section.homeSignup .homeSignupRight .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 220, ../sass/main.sass */
+/* line 223, ../sass/main.sass */
 section.homeSignup .homeSignupRight .btnWhite:hover {
   background: #256aa9;
 }
-/* line 222, ../sass/main.sass */
+/* line 225, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 226, ../sass/main.sass */
+/* line 229, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a:hover {
   text-decoration: underline;
 }
-/* line 228, ../sass/main.sass */
+/* line 231, ../sass/main.sass */
 section.homeSignin {
   background-image: url("../images/signin-slide.jpg");
   background-position: top center;
@@ -261,14 +266,14 @@ section.homeSignin {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 240, ../sass/main.sass */
+/* line 243, ../sass/main.sass */
 section.homeSignin .homeSigninLeft h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 246, ../sass/main.sass */
+/* line 249, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .btnWhite {
   border: 1px solid white;
   color: white;
@@ -279,33 +284,33 @@ section.homeSignin .homeSigninLeft .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 255, ../sass/main.sass */
+/* line 258, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .btnWhite:hover {
   background: #256aa9;
 }
-/* line 257, ../sass/main.sass */
+/* line 260, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 261, ../sass/main.sass */
+/* line 264, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a:hover {
   text-decoration: underline;
 }
-/* line 265, ../sass/main.sass */
+/* line 268, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 270, ../sass/main.sass */
+/* line 273, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 274, ../sass/main.sass */
+/* line 277, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 {
   background: #090a0b;
   color: white;
@@ -317,71 +322,71 @@ section.homeSignin .homeSigninRight h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 286, ../sass/main.sass */
+/* line 289, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 span {
   color: #256aa9;
 }
-/* line 288, ../sass/main.sass */
+/* line 291, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2.first-child {
   margin-top: 20px;
 }
-/* line 290, ../sass/main.sass */
+/* line 293, ../sass/main.sass */
 section.homeSignin .homeSigninRight p {
   margin-left: 30px;
 }
-/* line 294, ../sass/main.sass */
+/* line 297, ../sass/main.sass */
 section.diamondLine .diamond {
   margin-top: -25px;
 }
-/* line 296, ../sass/main.sass */
+/* line 299, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
   background-image: url("../images/bg-main.jpg");
   background-repeat: repeat;
   padding: 30px 0px;
 }
-/* line 302, ../sass/main.sass */
+/* line 305, ../sass/main.sass */
 section.homeWidget .row {
   border-top: 1px solid #2d3037;
   border-bottom: 1px solid #2d3037;
 }
-/* line 306, ../sass/main.sass */
+/* line 309, ../sass/main.sass */
 section.homeWidget .row .latestNews h4 {
   text-align: center;
 }
-/* line 308, ../sass/main.sass */
+/* line 311, ../sass/main.sass */
 section.homeWidget .row h4 {
   color: white;
   margin-top: 10px;
 }
-/* line 311, ../sass/main.sass */
+/* line 314, ../sass/main.sass */
 section.homeWidget .row small {
   color: white;
 }
-/* line 313, ../sass/main.sass */
+/* line 316, ../sass/main.sass */
 section.homeAbout {
   background-color: black;
   min-height: 300px;
 }
-/* line 317, ../sass/main.sass */
+/* line 320, ../sass/main.sass */
 section.homeAbout h2 {
   color: white;
 }
-/* line 319, ../sass/main.sass */
+/* line 322, ../sass/main.sass */
 section.homeAbout h2 span {
   color: #bd0000;
 }
 
-/* line 322, ../sass/main.sass */
+/* line 325, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
   padding-top: 10px;
 }
-/* line 325, ../sass/main.sass */
+/* line 328, ../sass/main.sass */
 header.topNav[data-magellan-expedition] {
   background: url("../images/bg-pattern-black.png") #090a0b;
 }
-/* line 331, ../sass/main.sass */
+/* line 333, ../sass/main.sass */
 header.topNav .diamond {
   position: relative;
   top: 30px;
