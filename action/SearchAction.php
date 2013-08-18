@@ -24,7 +24,7 @@ class SearchAction extends AbstractAction {
 //        }
 //        echo $login;
         
-        $this->loadView('search', array('login'=>$login));
+        $this->loadView('search');
     }
 
 }
