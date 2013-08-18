@@ -1,13 +1,6 @@
 <?php
 include 'includes/header.php';
 ?>
-<script>
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            $(".scollOffset").css("padding", "100px");
-        });
-    });
-</script>
 <section class="mainContent scollOffset">
     <div class="row">
         <?php include 'includes/sidebar.php'; ?>

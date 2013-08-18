@@ -576,3 +576,36 @@ section.mainContent .mainContainer section {
   padding: 20px;
   margin-bottom: 20px;
 }
+
+/*  registration
+ * ================================================== */
+/* line 466, ../sass/main.sass */
+section.registrationMain legend {
+  font-size: 1.5em;
+  background-color: transparent;
+  color: white;
+}
+/* line 470, ../sass/main.sass */
+section.registrationMain select {
+  border: 1px solid #cccccc;
+  height: 2em;
+}
+/* line 473, ../sass/main.sass */
+section.registrationMain .row {
+  margin-bottom: 10px;
+}
+/* line 475, ../sass/main.sass */
+section.registrationMain .btnWhite {
+  border: 1px solid white;
+  color: white;
+  margin: 0px;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #090a0b;
+}
+/* line 484, ../sass/main.sass */
+section.registrationMain .btnWhite:hover {
+  background: #256aa9;
+}

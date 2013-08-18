@@ -13,7 +13,7 @@ include 'includes/header.php';
 
             <h2><span>Report and Verify</span> System.</h2>
             <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member</p>
-            <a href=""><span class="icon-left-dir"></span> Sign-in</a>
+            <a href="#sign-in" class="haveAccount"><span class="icon-left-dir"></span> Sign-in</a>
         </div>
         <div class="large-2 columns">
             <div class="homeMainCenter">
@@ -53,7 +53,7 @@ include 'includes/header.php';
         <div class="large-5 columns homeSignupRight">
             <h2 class="first-child">Get Started - it’s free.</h2>
             <p><span>Register in easy 3 steps.</span></p>
-            <form>
+            <form action="<?= BASE_URL?>/registration" method="POST">
                 <div class="row">
                     <div class="large-12 columns">
                         <label>User Name</label>
@@ -98,7 +98,7 @@ include 'includes/header.php';
             <a name="sign-in" class="anchorOffset"></a>
             <h2 class="first-child">Welcome Back.</h2>
 
-            <form>
+            <form action="<?= BASE_URL?>/dashboard" method="POST">
                 <div class="row">
                     <div class="large-12 columns">
                         <label>User Name</label>
