@@ -18,8 +18,6 @@
         ================================================== -->
         <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/waypoints.min.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/waypoints-sticky.min.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
         <!-- Favicons
         ================================================== -->
@@ -62,3 +60,4 @@
                 </nav>
             </div>
         </header>
+        

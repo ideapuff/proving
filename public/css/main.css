@@ -104,7 +104,7 @@ section.homeMain {
   background--moz-background-size: cover;
   background-background-size: cover;
   min-height: 526px;
-  min-width: 1000px;
+  min-width: 1300px;
 }
 /* line 110, ../sass/main.sass */
 section.homeMain .upperDiamond {
@@ -171,59 +171,217 @@ section.homeMain .homeMainCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 164, ../sass/main.sass */
+/* line 163, ../sass/main.sass */
+section.homeSignup {
+  background-image: url("../images/signup-slide.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background--webkit-background-size: cover;
+  background--moz-background-size: cover;
+  background-background-size: cover;
+  min-height: 526px;
+  min-width: 1000px;
+}
+/* line 175, ../sass/main.sass */
+section.homeSignup .homeSignupLeft h2 {
+  background: #090a0b;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  border-left: 6px solid #bd0000;
+  border-top: 2px solid #bd0000;
+  border-right: 2px solid #bd0000;
+  border-bottom: 2px solid #bd0000;
+}
+/* line 187, ../sass/main.sass */
+section.homeSignup .homeSignupLeft h2 span {
+  color: #bd0000;
+}
+/* line 189, ../sass/main.sass */
+section.homeSignup .homeSignupLeft h2.first-child {
+  margin-top: 20px;
+}
+/* line 191, ../sass/main.sass */
+section.homeSignup .homeSignupLeft p {
+  margin-left: 30px;
+}
+/* line 196, ../sass/main.sass */
+section.homeSignup .homeSignupCenter .circle {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  cursor: pointer;
+}
+/* line 201, ../sass/main.sass */
+section.homeSignup .homeSignupCenter .diamond {
+  position: absolute;
+  bottom: 30px;
+}
+/* line 205, ../sass/main.sass */
+section.homeSignup .homeSignupRight h2 {
+  color: white;
+  font-size: 28px;
+  padding: 10px 0px;
+  display: inline-block;
+}
+/* line 211, ../sass/main.sass */
+section.homeSignup .homeSignupRight .btnWhite {
+  border: 1px solid white;
+  color: white;
+  margin: 0px;
+  padding: 15px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #090a0b;
+}
+/* line 220, ../sass/main.sass */
+section.homeSignup .homeSignupRight .btnWhite:hover {
+  background: #256aa9;
+}
+/* line 222, ../sass/main.sass */
+section.homeSignup .homeSignupRight .actionBtn a {
+  color: white;
+  padding: 15px 0px;
+  line-height: 40px;
+}
+/* line 226, ../sass/main.sass */
+section.homeSignup .homeSignupRight .actionBtn a:hover {
+  text-decoration: underline;
+}
+/* line 228, ../sass/main.sass */
+section.homeSignin {
+  background-image: url("../images/signin-slide.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background--webkit-background-size: cover;
+  background--moz-background-size: cover;
+  background-background-size: cover;
+  min-height: 526px;
+  min-width: 1000px;
+}
+/* line 240, ../sass/main.sass */
+section.homeSignin .homeSigninLeft h2 {
+  color: white;
+  font-size: 28px;
+  padding: 10px 0px;
+  display: inline-block;
+}
+/* line 246, ../sass/main.sass */
+section.homeSignin .homeSigninLeft .btnWhite {
+  border: 1px solid white;
+  color: white;
+  margin: 0px;
+  padding: 15px 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #090a0b;
+}
+/* line 255, ../sass/main.sass */
+section.homeSignin .homeSigninLeft .btnWhite:hover {
+  background: #256aa9;
+}
+/* line 257, ../sass/main.sass */
+section.homeSignin .homeSigninLeft .actionBtn a {
+  color: white;
+  padding: 15px 0px;
+  line-height: 40px;
+}
+/* line 261, ../sass/main.sass */
+section.homeSignin .homeSigninLeft .actionBtn a:hover {
+  text-decoration: underline;
+}
+/* line 265, ../sass/main.sass */
+section.homeSignin .homeSigninCenter .circle {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  cursor: pointer;
+}
+/* line 270, ../sass/main.sass */
+section.homeSignin .homeSigninCenter .diamond {
+  position: absolute;
+  bottom: 30px;
+}
+/* line 274, ../sass/main.sass */
+section.homeSignin .homeSigninRight h2 {
+  background: #090a0b;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  border-left: 6px solid #256aa9;
+  border-top: 2px solid #256aa9;
+  border-right: 2px solid #256aa9;
+  border-bottom: 2px solid #256aa9;
+}
+/* line 286, ../sass/main.sass */
+section.homeSignin .homeSigninRight h2 span {
+  color: #256aa9;
+}
+/* line 288, ../sass/main.sass */
+section.homeSignin .homeSigninRight h2.first-child {
+  margin-top: 20px;
+}
+/* line 290, ../sass/main.sass */
+section.homeSignin .homeSigninRight p {
+  margin-left: 30px;
+}
+/* line 294, ../sass/main.sass */
 section.diamondLine .diamond {
   margin-top: -25px;
 }
-/* line 166, ../sass/main.sass */
+/* line 296, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
   background-image: url("../images/bg-main.jpg");
   background-repeat: repeat;
   padding: 30px 0px;
 }
-/* line 172, ../sass/main.sass */
+/* line 302, ../sass/main.sass */
 section.homeWidget .row {
   border-top: 1px solid #2d3037;
   border-bottom: 1px solid #2d3037;
 }
-/* line 176, ../sass/main.sass */
+/* line 306, ../sass/main.sass */
 section.homeWidget .row .latestNews h4 {
   text-align: center;
 }
-/* line 178, ../sass/main.sass */
+/* line 308, ../sass/main.sass */
 section.homeWidget .row h4 {
   color: white;
   margin-top: 10px;
 }
-/* line 181, ../sass/main.sass */
+/* line 311, ../sass/main.sass */
 section.homeWidget .row small {
   color: white;
 }
-/* line 183, ../sass/main.sass */
+/* line 313, ../sass/main.sass */
 section.homeAbout {
   background-color: black;
   min-height: 300px;
 }
-/* line 187, ../sass/main.sass */
+/* line 317, ../sass/main.sass */
 section.homeAbout h2 {
   color: white;
 }
-/* line 189, ../sass/main.sass */
+/* line 319, ../sass/main.sass */
 section.homeAbout h2 span {
   color: #bd0000;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 322, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
   padding-top: 10px;
 }
-/* line 195, ../sass/main.sass */
+/* line 325, ../sass/main.sass */
 header.topNav[data-magellan-expedition] {
   background: url("../images/bg-pattern-black.png") #090a0b;
 }
-/* line 201, ../sass/main.sass */
+/* line 331, ../sass/main.sass */
 header.topNav .diamond {
   position: relative;
   top: 30px;
