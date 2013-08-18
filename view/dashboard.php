@@ -16,7 +16,7 @@ include 'includes/header.php';
                 <p>Find Out Who Else is Using Proving Grounds</p>
                 <p>Subtitle</p>
                 <input type="email" placeholder="your@email.com">
-                <input type="submit" value="Continue">
+                <input type="submit" value="Continue" class="btnWhite">
             </section>
             <section class="activityFeed">
                 <p>Activity feed title (Example: Tim joined my team <a href="">Proving Grounds</a>.)</p>
