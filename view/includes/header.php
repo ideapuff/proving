@@ -17,6 +17,8 @@
         ================================================== -->
         <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/waypoints.min.js"></script>
+        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/waypoints-sticky.min.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
         <!-- Favicons
         ================================================== -->
@@ -41,7 +43,7 @@
             </div>
         </section>
         <?php endif;?>
-        <header class="topNav">
+        <header class="topNav" data-magellan-expedition="fixed">
             <div class="row">
                 <div class="large-5 columns">
                     <img src="<?= BASE_URL?>/public/images/logo.png" alt="">

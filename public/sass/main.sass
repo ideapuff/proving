@@ -91,6 +91,7 @@ section
 					font-weight: 700
 					text-transform: uppercase
 					letter-spacing: 1px
+					background-color: $black
 				a.btnWhite:hover
 					background: $blue
 	&.homeMain
@@ -155,6 +156,7 @@ section
 				position: absolute
 				top: 180px
 				left: 0px
+				cursor: pointer
 			.diamond
 				position: absolute
 				bottom: 30px
@@ -171,13 +173,13 @@ section
 			border:
 				top: 1px solid #2d3037
 				bottom: 1px solid #2d3037
-		.latestNews h4
-			text-align: center
-		h4
-			color: white
-			margin-top: 10px
-		small
-			color: white
+			.latestNews h4
+				text-align: center
+			h4
+				color: white
+				margin-top: 10px
+			small
+				color: white
 	&.homeAbout
 		background:
 			color: black
@@ -190,7 +192,9 @@ header
 	&.topNav
 		border:
 			top: 10px solid red
-	.row
+		&[data-magellan-expedition] 
+			background: url('../images/bg-pattern-black.png') $black
+
 		padding:
 			top: 10px
 
