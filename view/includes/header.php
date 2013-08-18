@@ -46,27 +46,29 @@
         <header class="topNav" data-magellan-expedition="fixed">
             <div class="row">
                 <div class="large-5 columns">
-                    <a href="<?= BASE_URL?>/home"><img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt=""></a>
+                    <a href="<?= BASE_URL?>/dashboard"><img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt=""></a>
                 </div>
                 <div class="large-2 columns text-center">
-                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-down.png" alt="">
                 </div>
                 <?php if(isset($page) && $page=="home"):?>
                 <nav class="large-5 columns">
                     <ul class="inline-list right">
                         <li><a href="<?= BASE_URL?>/home#about">About</a></li>
                         <li><a href="<?= BASE_URL?>/home#sign-in" class="haveAccount">Sign-in</a></li>
-                        <li><a href="">Forum</a></li>
+                        <li><a href="<?= BASE_URL?>/form">Forum</a></li>
                         <li><a href=""><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
                 <? else:?>
                 <nav class="large-5 columns">
                     <ul class="inline-list right">
-                        <li><a href="">Me</a></li>
-                        <li><a href="">Summoners</a></li>
-                        <li><a href="">Inbox</a></li>
-                        <li><a href="">Forum</a></li>
+                        <li><a href="<?= BASE_URL?>/dashboard">Home</a></li>
+                        <li><a href="<?= BASE_URL?>/profile">Me</a></li>
+                        <li><a href="<?= BASE_URL?>/summoners">Summoners</a></li>
+                        <li><a href="<?= BASE_URL?>/team">Team</a></li>
+                        <!-- <li><a href="<?= BASE_URL?>/inbox">Inbox</a></li> -->
+                        <li><a href="<?= BASE_URL?>/forum">Forum</a></li>
                         <li><a href=""><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>

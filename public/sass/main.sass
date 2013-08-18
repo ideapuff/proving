@@ -63,14 +63,15 @@ header
 	&.topNav
 		border:
 			top: 10px solid red
+		padding: 5px 0 0 0
+		+box-shadow(0px 0px 10px 5px rgba(0, 0, 0, 0.3))
 		&[data-magellan-expedition]
 			background: url("../images/bg-pattern-black.png") $black
-		padding: 5px 0 0 0
 		.diamond
 			position: relative
 			top: 30px
 		nav
-			padding-top: 20px
+			padding-top: 10px
 			a
 				color: white
 				+fade(color, 0.2s)
@@ -78,27 +79,30 @@ header
 					color: $blue
 
 footer
-	nav
-		ul li
-			border-right: 1px solid white
-			&:last-child
-				border-right: 0
-			a
-				color: white
-				+fade(color, 0.2s)
-				padding-right: 20px
-				font:
-					size: 0.875em
-					weight: 500
-				text-transform: uppercase
-				letter-spacing: 1px
-				&:hover
-					color: $blue
-	.socialIcons a
-		color: white
-		+fade(color, 0.2s)
-		&:hover
-			color: $blue
+	margin-top: -25px
+	.footerContainer
+		+box-shadow(0px 0px 10px 5px rgba(0, 0, 0, 0.3))
+		nav
+			ul li
+				border-right: 1px solid white
+				&:last-child
+					border-right: 0
+				a
+					color: white
+					+fade(color, 0.2s)
+					padding-right: 20px
+					font:
+						size: 0.875em
+						weight: 500
+					text-transform: uppercase
+					letter-spacing: 1px
+					&:hover
+						color: $blue
+		.socialIcons a
+			color: white
+			+fade(color, 0.2s)
+			&:hover
+				color: $blue
 
 
 
@@ -349,8 +353,10 @@ section.homeSignin
 				left: 30px
 
 section.diamondLine
+	+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))
 	.diamond
 		margin-top: -25px
+
 
 section.homeWidget
 	background:
@@ -362,6 +368,8 @@ section.homeWidget
 		border:
 			top: 1px solid #2d3037
 			bottom: 1px solid #2d3037
+		.large-8
+			border-left: 1px solid #2d3037
 		.latestNews h4
 			text-align: center
 		h4
@@ -374,14 +382,13 @@ section.homeAbout
 	background:
 		color: black
 	min-height: 300px
+	padding-top: 20px
 	h2
 		color: white
 		span
 			color: $red
 
-section.homeWidget
-	.large-8
-		border-left: 1px solid #2d3037
+
 
 /* 2. Page Styles
  * 		1.2. Dashboard
@@ -444,7 +451,9 @@ section.mainContent
 							background: -ms-linear-gradient(top, transparentize($black / 2, 0.7) 0%, transparentize(#24282c, 0.8) 15%, transparentize(#24282c, 0.8) 85%, transparentize($black / 2, 0.7) 100%)
 							background: linear-gradient(to bottom, transparentize($black / 2, 0.7) 0%, transparentize(#24282c, 0.8) 15%, transparentize(#24282c, 0.8) 85%, transparentize($black / 2, 0.7) 100%)
 							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparentize($black / 2, 0.7)', endColorstr='transparentize($black / 2, 0.7)',GradientType=0 )
-	.mainContent
+		.sidebarWidget
+			border-bottom: 1px solid transparentize(silver, 0.9)
+	.mainContainer
 		section
 			background: $black * 4
 			+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))

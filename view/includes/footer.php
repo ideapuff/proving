@@ -4,7 +4,7 @@
             <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
         </div>
     </div>
-    <div class="row">
+    <div class="row footerContainer">
         <nav class="large-5 columns">
             <ul class="inline-list">
                 <!-- <li><a href="">Home</a></li>

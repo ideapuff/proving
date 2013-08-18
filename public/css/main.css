@@ -45,42 +45,55 @@ p {
 header.topNav {
   border-top: 10px solid red;
   padding: 5px 0 0 0;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 66, ../sass/main.sass */
+/* line 68, ../sass/main.sass */
 header.topNav[data-magellan-expedition] {
   background: url("../images/bg-pattern-black.png") #090a0b;
 }
-/* line 69, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 header.topNav .diamond {
   position: relative;
   top: 30px;
 }
-/* line 72, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 header.topNav nav {
-  padding-top: 20px;
+  padding-top: 10px;
 }
-/* line 74, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 header.topNav nav a {
   color: white;
   transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
 }
-/* line 77, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 header.topNav nav a:hover {
   color: #256aa9;
 }
 
-/* line 82, ../sass/main.sass */
-footer nav ul li {
-  border-right: 1px solid white;
+/* line 81, ../sass/main.sass */
+footer {
+  margin-top: -25px;
 }
-/* line 84, ../sass/main.sass */
-footer nav ul li:last-child {
-  border-right: 0;
+/* line 83, ../sass/main.sass */
+footer .footerContainer {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 /* line 86, ../sass/main.sass */
-footer nav ul li a {
+footer .footerContainer nav ul li {
+  border-right: 1px solid white;
+}
+/* line 88, ../sass/main.sass */
+footer .footerContainer nav ul li:last-child {
+  border-right: 0;
+}
+/* line 90, ../sass/main.sass */
+footer .footerContainer nav ul li a {
   color: white;
   transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -91,19 +104,19 @@ footer nav ul li a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 95, ../sass/main.sass */
-footer nav ul li a:hover {
+/* line 99, ../sass/main.sass */
+footer .footerContainer nav ul li a:hover {
   color: #256aa9;
 }
-/* line 97, ../sass/main.sass */
-footer .socialIcons a {
+/* line 101, ../sass/main.sass */
+footer .footerContainer .socialIcons a {
   color: white;
   transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
 }
-/* line 100, ../sass/main.sass */
-footer .socialIcons a:hover {
+/* line 104, ../sass/main.sass */
+footer .footerContainer .socialIcons a:hover {
   color: #256aa9;
 }
 
@@ -113,45 +126,45 @@ footer .socialIcons a:hover {
 /* 2. Page Styles
  * 		1.1. Home
  * ================================================== */
-/* line 115, ../sass/main.sass */
+/* line 119, ../sass/main.sass */
 section .anchorOffset {
   position: absolute;
   top: -145px;
 }
-/* line 118, ../sass/main.sass */
+/* line 122, ../sass/main.sass */
 section.homeTop {
   height: 450px;
   text-align: center;
   position: relative;
 }
-/* line 123, ../sass/main.sass */
+/* line 127, ../sass/main.sass */
 section.homeTop .row {
   position: relative;
   top: 10%;
 }
-/* line 126, ../sass/main.sass */
+/* line 130, ../sass/main.sass */
 section.homeTop .row .logo {
   margin-top: 50px;
 }
-/* line 129, ../sass/main.sass */
+/* line 133, ../sass/main.sass */
 section.homeTop .row h1 {
   color: white;
 }
-/* line 131, ../sass/main.sass */
+/* line 135, ../sass/main.sass */
 section.homeTop .row h1 span {
   color: #bd0000;
 }
-/* line 133, ../sass/main.sass */
+/* line 137, ../sass/main.sass */
 section.homeTop .row h3 {
   color: #535c65;
 }
-/* line 135, ../sass/main.sass */
+/* line 139, ../sass/main.sass */
 section.homeTop .row .actionBtn {
   margin-top: 20px;
   padding-top: 20px;
   height: 40px;
 }
-/* line 141, ../sass/main.sass */
+/* line 145, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite {
   border: 1px solid white;
   color: white;
@@ -165,12 +178,12 @@ section.homeTop .row .actionBtn a.btnWhite {
   -moz-transition: background 0.2s linear;
   -webkit-transition: background 0.2s linear;
 }
-/* line 151, ../sass/main.sass */
+/* line 155, ../sass/main.sass */
 section.homeTop .row .actionBtn a.btnWhite:hover {
   background: #256aa9;
 }
 
-/* line 154, ../sass/main.sass */
+/* line 158, ../sass/main.sass */
 section.homeMain {
   background-image: url("../images/slide.jpg");
   background-position: top center;
@@ -181,11 +194,11 @@ section.homeMain {
   min-height: 526px;
   min-width: 1300px;
 }
-/* line 166, ../sass/main.sass */
+/* line 170, ../sass/main.sass */
 section.homeMain .row a {
   color: white;
 }
-/* line 169, ../sass/main.sass */
+/* line 173, ../sass/main.sass */
 section.homeMain .row .homeMainRight h2 {
   background: #090a0b;
   color: white;
@@ -197,19 +210,19 @@ section.homeMain .row .homeMainRight h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 181, ../sass/main.sass */
+/* line 185, ../sass/main.sass */
 section.homeMain .row .homeMainRight h2 span {
   color: #bd0000;
 }
-/* line 183, ../sass/main.sass */
+/* line 187, ../sass/main.sass */
 section.homeMain .row .homeMainRight h2.first-child {
   margin-top: 20px;
 }
-/* line 185, ../sass/main.sass */
+/* line 189, ../sass/main.sass */
 section.homeMain .row .homeMainRight p {
   margin-left: 30px;
 }
-/* line 189, ../sass/main.sass */
+/* line 193, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2 {
   background: #090a0b;
   color: white;
@@ -221,36 +234,36 @@ section.homeMain .row .homeMainLeft h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 201, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2 span {
   color: #256aa9;
 }
-/* line 203, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 205, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 section.homeMain .row .homeMainLeft p {
   margin-left: 30px;
 }
-/* line 208, ../sass/main.sass */
+/* line 212, ../sass/main.sass */
 section.homeMain .row .homeMainCenter {
   position: relative;
 }
-/* line 210, ../sass/main.sass */
+/* line 214, ../sass/main.sass */
 section.homeMain .row .homeMainCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 215, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 section.homeMain .row .homeMainCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
 
-/* line 219, ../sass/main.sass */
+/* line 223, ../sass/main.sass */
 section.homeSignup {
   background-image: url("../images/signup-slide.jpg");
   background-position: top center;
@@ -261,7 +274,7 @@ section.homeSignup {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 231, ../sass/main.sass */
+/* line 235, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 {
   background: #090a0b;
   color: white;
@@ -273,42 +286,42 @@ section.homeSignup .homeSignupLeft h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 243, ../sass/main.sass */
+/* line 247, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 span {
   color: #bd0000;
 }
-/* line 245, ../sass/main.sass */
+/* line 249, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 247, ../sass/main.sass */
+/* line 251, ../sass/main.sass */
 section.homeSignup .homeSignupLeft p {
   margin-left: 30px;
 }
-/* line 250, ../sass/main.sass */
+/* line 254, ../sass/main.sass */
 section.homeSignup .homeSignupCenter {
   position: relative;
 }
-/* line 252, ../sass/main.sass */
+/* line 256, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 257, ../sass/main.sass */
+/* line 261, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 261, ../sass/main.sass */
+/* line 265, ../sass/main.sass */
 section.homeSignup .homeSignupRight h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 267, ../sass/main.sass */
+/* line 271, ../sass/main.sass */
 section.homeSignup .homeSignupRight .btnWhite {
   border: 1px solid white;
   color: white;
@@ -319,22 +332,22 @@ section.homeSignup .homeSignupRight .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 276, ../sass/main.sass */
+/* line 280, ../sass/main.sass */
 section.homeSignup .homeSignupRight .btnWhite:hover {
   background: #256aa9;
 }
-/* line 278, ../sass/main.sass */
+/* line 282, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 282, ../sass/main.sass */
+/* line 286, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a:hover {
   text-decoration: underline;
 }
 
-/* line 285, ../sass/main.sass */
+/* line 289, ../sass/main.sass */
 section.homeSignin {
   background-image: url("../images/signin-slide.jpg");
   background-position: top center;
@@ -345,14 +358,14 @@ section.homeSignin {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 297, ../sass/main.sass */
+/* line 301, ../sass/main.sass */
 section.homeSignin .homeSigninLeft h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 303, ../sass/main.sass */
+/* line 307, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .btnWhite {
   border: 1px solid white;
   color: white;
@@ -363,37 +376,37 @@ section.homeSignin .homeSigninLeft .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 312, ../sass/main.sass */
+/* line 316, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .btnWhite:hover {
   background: #256aa9;
 }
-/* line 314, ../sass/main.sass */
+/* line 318, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 318, ../sass/main.sass */
+/* line 322, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a:hover {
   text-decoration: underline;
 }
-/* line 320, ../sass/main.sass */
+/* line 324, ../sass/main.sass */
 section.homeSignin .homeSigninCenter {
   position: relative;
 }
-/* line 322, ../sass/main.sass */
+/* line 326, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 327, ../sass/main.sass */
+/* line 331, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 331, ../sass/main.sass */
+/* line 335, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 {
   background: #090a0b;
   color: white;
@@ -405,79 +418,85 @@ section.homeSignin .homeSigninRight h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 343, ../sass/main.sass */
+/* line 347, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 span {
   color: #256aa9;
 }
-/* line 345, ../sass/main.sass */
+/* line 349, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2.first-child {
   margin-top: 20px;
 }
-/* line 347, ../sass/main.sass */
+/* line 351, ../sass/main.sass */
 section.homeSignin .homeSigninRight p {
   margin-left: 30px;
 }
 
-/* line 352, ../sass/main.sass */
+/* line 355, ../sass/main.sass */
+section.diamondLine {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+/* line 357, ../sass/main.sass */
 section.diamondLine .diamond {
   margin-top: -25px;
 }
 
-/* line 355, ../sass/main.sass */
+/* line 361, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
   background-image: url("../images/bg-main.jpg");
   background-repeat: repeat;
   padding: 30px 0px;
 }
-/* line 361, ../sass/main.sass */
+/* line 367, ../sass/main.sass */
 section.homeWidget .row {
   border-top: 1px solid #2d3037;
   border-bottom: 1px solid #2d3037;
 }
-/* line 365, ../sass/main.sass */
+/* line 371, ../sass/main.sass */
+section.homeWidget .row .large-8 {
+  border-left: 1px solid #2d3037;
+}
+/* line 373, ../sass/main.sass */
 section.homeWidget .row .latestNews h4 {
   text-align: center;
 }
-/* line 367, ../sass/main.sass */
+/* line 375, ../sass/main.sass */
 section.homeWidget .row h4 {
   color: white;
   margin-top: 10px;
 }
-/* line 370, ../sass/main.sass */
+/* line 378, ../sass/main.sass */
 section.homeWidget .row small {
   color: white;
 }
 
-/* line 373, ../sass/main.sass */
+/* line 381, ../sass/main.sass */
 section.homeAbout {
   background-color: black;
   min-height: 300px;
+  padding-top: 20px;
 }
-/* line 377, ../sass/main.sass */
+/* line 386, ../sass/main.sass */
 section.homeAbout h2 {
   color: white;
 }
-/* line 379, ../sass/main.sass */
+/* line 388, ../sass/main.sass */
 section.homeAbout h2 span {
   color: #bd0000;
-}
-
-/* line 383, ../sass/main.sass */
-section.homeWidget .large-8 {
-  border-left: 1px solid #2d3037;
 }
 
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 389, ../sass/main.sass */
+/* line 396, ../sass/main.sass */
 section.mainContent {
   background: url("../images/bg-main.jpg");
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 395, ../sass/main.sass */
+/* line 402, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox {
   overflow: hidden;
   background: #24282c;
@@ -486,30 +505,30 @@ section.mainContent .sidebar .sidebarBox {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
 }
-/* line 401, ../sass/main.sass */
+/* line 408, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto {
   text-align: center;
 }
-/* line 403, ../sass/main.sass */
+/* line 410, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox {
   width: 303px;
   height: 303px;
 }
-/* line 406, ../sass/main.sass */
+/* line 413, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox img {
   background: white;
   width: 303px;
   height: auto;
   border-bottom: 10px solid #256aa9;
 }
-/* line 411, ../sass/main.sass */
+/* line 418, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h2 {
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 420, ../sass/main.sass */
+/* line 427, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   color: #256aa9;
   font-size: 1.125em;
@@ -517,22 +536,22 @@ section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/* line 427, ../sass/main.sass */
+/* line 434, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul {
   list-style: none;
   margin-bottom: 0;
 }
-/* line 430, ../sass/main.sass */
+/* line 437, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li {
   border-top: 1px solid rgba(192, 192, 192, 0.1);
 }
-/* line 432, ../sass/main.sass */
+/* line 439, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a {
   display: block;
   padding: 15px 20px;
   border-left: 5px solid #24282c;
 }
-/* line 436, ../sass/main.sass */
+/* line 443, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a:hover {
   border-left: 5px solid #256aa9;
   background: #090a0b;
@@ -544,8 +563,12 @@ section.mainContent .sidebar .sidebarBox ul li a:hover {
   background: linear-gradient(to bottom, rgba(4, 5, 5, 0.3) 0%, rgba(36, 40, 44, 0.2) 15%, rgba(36, 40, 44, 0.2) 85%, rgba(4, 5, 5, 0.3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparentize($black / 2, 0.7)', endColorstr='transparentize($black / 2, 0.7)',GradientType=0 );
 }
-/* line 448, ../sass/main.sass */
-section.mainContent .mainContent section {
+/* line 454, ../sass/main.sass */
+section.mainContent .sidebar .sidebarWidget {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.1);
+}
+/* line 457, ../sass/main.sass */
+section.mainContent .mainContainer section {
   background: #24282c;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);

@@ -160,13 +160,13 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
-<section class="diamondLine">
+<!-- <section class="diamondLine">
     <div class="row">
         <div class="large-12 large-centered columns text-center">
             <img class="diamond" src="<?= BASE_URL ?>/public/images/diamond-up.png" alt="">
         </div>
     </div>
-</section>
+</section> -->
 <section class="homeAbout">
     <a name="about"></a>
     <div class="row">
