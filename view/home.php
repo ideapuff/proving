@@ -5,16 +5,16 @@ include 'includes/header.php';
     <div class="row">
         <div class="large-5 columns homeMainLeft">
             <a name="learn-more" class="anchorOffset"></a>
-            <h2 class="first-child">All about <span>YOU</span>.</h2>
-            <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
+            <h2 class="first-child">All about <span>YOU</span></h2>
+            <p>Filter search by rankings, characters, prefered positions, and languages, then find the right person to play together.</p>
 
-            <h2>Have your own <span>Team and Community</span>.</h2>
-            <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
+            <h2><span>Honor </span>system</h2>
+            <p>Get endorsed by your friends and people who know you, increase your reputation in the community .</p>
 
-            <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member</p>
+            <h2>Access on <span>Any Device</span></h2>
+            <p>A responsive framework provides an access on any size of screen, do not need to worry about the integrity of the information the website provided.</p>
 
-            <a href="#sign-in" class="haveAccount"><span class="icon-left-dir"></span> Sign-in</a>
+            <a href="#sign-in" class="haveAccount actionBtn"><span class="icon-left-dir"></span> Sign-in</a>
 
         </div>
         <div class="large-2 columns">
@@ -23,13 +23,13 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="large-5 columns homeMainRight text-right">
-            <h2 class="first-child">Powerful <span>FILTER SEARCH</span>.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
-            <h2>It's all about YOU.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
-            <h2>It's all about YOU.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, </p>
-            <a href="#sign-up" class="getStarted">Get Started <span class="icon-right-dir"></span></a>
+            <h2 class="first-child">All about <span>You</span></h2>
+            <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. </p>
+            <h2>Have your own <span>Team and Community</span></h2>
+            <p>Create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
+            <h2><span>Report and Verify</span> System</h2>
+            <p>Notice someone tempts another gamer? Click the report button. Request to be verified, once we confirmed your information, your character information would not be used by other users anymore.</p>
+            <a href="#sign-up" class="getStarted actionBtn">Get Started <span class="icon-right-dir"></span></a>
         </div>
     </div>
 </section>
@@ -37,14 +37,12 @@ include 'includes/header.php';
     <div class="row">
         <div class="large-5 columns homeSignupLeft">
             <a name="sign-up" class="anchorOffset"></a>
-            <h2 class="first-child">All about <span>YOU</span>.</h2>
-            <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
-
-            <h2>Have your own <span>Team and Community</span>.</h2>
-            <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
-
-            <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us</p>
+            <h2 class="first-child">Get <span>Started</span></h2>
+            <p>Create user name, and create password.</p>
+            <h2>Basic <span>Information</span></h2>
+            <p>A little about yourself</p>
+            <h2>Add <span>Character</span></h2>
+            <p>Input your character name in the game, data will automatically drag down from the gaming database.</p>
 
         </div>
         <div class="large-2 columns">
@@ -136,14 +134,20 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="large-5 columns homeSigninRight">
-            <h2 class="first-child">All about <span>YOU</span>.</h2>
-            <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
+            <h2 class="first-child">Try To Get <span>Honored</span></h2>
+            <p>Get honored from other members, as the your honor goes up, you will be rewarded with special features.</p>
 
-            <h2>Have your own <span>Team and Community</span>.</h2>
-            <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
+            <h2><span>Follow </span>People you like</h2>
+            <p>Follow people doing good in the game, our real life activity feed will provide you with their live status and activities.</p>
 
-            <h2><span>Report and Verify</span> System.</h2>
-            <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us.</p>
+            <h2>File A Report<span>Report</span></h2>
+            <p>Do not only Blacklisted those unreliable members. Talk to us, report users you think whom took other peoples characters.</p>
+            
+            <h2><span>Referral</span> Your Friends</h2>
+            <p>Increase your experience points, and get to the next level fast.</p>
+            
+<!--            <h2>Get <span>Verified</span></h2>
+            <p>You will receiving a verified badge, which represents the information on your profile about the character is reliable, and no one will be able to be added again.</p>-->
         </div>
     </div>
 </section>

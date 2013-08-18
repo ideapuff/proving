@@ -226,7 +226,19 @@ section.homeMain .row .homeMainRight h2.first-child {
 section.homeMain .row .homeMainRight p {
   margin-left: 30px;
 }
-/* line 195, ../sass/main.sass */
+/* line 194, ../sass/main.sass */
+section.homeMain .row .homeMainRight a.actionBtn {
+  position: absolute;
+  top: 480px;
+  font-size: 25px;
+  right: 0px;
+}
+/* line 199, ../sass/main.sass */
+section.homeMain .row .homeMainRight a.actionBtn:hover {
+  text-decoration: underline;
+  color: #bd0000;
+}
+/* line 203, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2 {
   background: #090a0b;
   color: white;
@@ -238,36 +250,47 @@ section.homeMain .row .homeMainLeft h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 207, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2 span {
   color: #256aa9;
 }
-/* line 209, ../sass/main.sass */
+/* line 217, ../sass/main.sass */
 section.homeMain .row .homeMainLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 211, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 section.homeMain .row .homeMainLeft p {
   margin-left: 30px;
 }
-/* line 214, ../sass/main.sass */
+/* line 222, ../sass/main.sass */
+section.homeMain .row .homeMainLeft a.actionBtn {
+  position: absolute;
+  top: 480px;
+  font-size: 25px;
+}
+/* line 226, ../sass/main.sass */
+section.homeMain .row .homeMainLeft a.actionBtn:hover {
+  text-decoration: underline;
+  color: #256aa9;
+}
+/* line 229, ../sass/main.sass */
 section.homeMain .row .homeMainCenter {
   position: relative;
 }
-/* line 216, ../sass/main.sass */
+/* line 231, ../sass/main.sass */
 section.homeMain .row .homeMainCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 221, ../sass/main.sass */
+/* line 236, ../sass/main.sass */
 section.homeMain .row .homeMainCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
 
-/* line 225, ../sass/main.sass */
+/* line 240, ../sass/main.sass */
 section.homeSignup {
   background-image: url("../images/signup-slide.jpg");
   background-position: top center;
@@ -278,7 +301,7 @@ section.homeSignup {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 237, ../sass/main.sass */
+/* line 252, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 {
   background: #090a0b;
   color: white;
@@ -290,53 +313,53 @@ section.homeSignup .homeSignupLeft h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 249, ../sass/main.sass */
+/* line 264, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2 span {
   color: #bd0000;
 }
-/* line 251, ../sass/main.sass */
+/* line 266, ../sass/main.sass */
 section.homeSignup .homeSignupLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 253, ../sass/main.sass */
+/* line 268, ../sass/main.sass */
 section.homeSignup .homeSignupLeft p {
   margin-left: 30px;
 }
-/* line 256, ../sass/main.sass */
+/* line 271, ../sass/main.sass */
 section.homeSignup .homeSignupCenter {
   position: relative;
 }
-/* line 258, ../sass/main.sass */
+/* line 273, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 263, ../sass/main.sass */
+/* line 278, ../sass/main.sass */
 section.homeSignup .homeSignupCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 267, ../sass/main.sass */
+/* line 282, ../sass/main.sass */
 section.homeSignup .homeSignupRight h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 273, ../sass/main.sass */
+/* line 288, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 277, ../sass/main.sass */
+/* line 292, ../sass/main.sass */
 section.homeSignup .homeSignupRight .actionBtn a:hover {
   text-decoration: underline;
 }
 
-/* line 281, ../sass/main.sass */
+/* line 296, ../sass/main.sass */
 section.homeSignin {
   background-image: url("../images/signin-slide.jpg");
   background-position: top center;
@@ -347,40 +370,40 @@ section.homeSignin {
   min-height: 526px;
   min-width: 1000px;
 }
-/* line 293, ../sass/main.sass */
+/* line 308, ../sass/main.sass */
 section.homeSignin .homeSigninLeft h2 {
   color: white;
   font-size: 28px;
   padding: 10px 0px;
   display: inline-block;
 }
-/* line 299, ../sass/main.sass */
+/* line 314, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a {
   color: white;
   padding: 15px 0px;
   line-height: 40px;
 }
-/* line 303, ../sass/main.sass */
+/* line 318, ../sass/main.sass */
 section.homeSignin .homeSigninLeft .actionBtn a:hover {
   text-decoration: underline;
 }
-/* line 305, ../sass/main.sass */
+/* line 320, ../sass/main.sass */
 section.homeSignin .homeSigninCenter {
   position: relative;
 }
-/* line 307, ../sass/main.sass */
+/* line 322, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .circle {
   position: absolute;
   top: 180px;
   left: 0px;
   cursor: pointer;
 }
-/* line 312, ../sass/main.sass */
+/* line 327, ../sass/main.sass */
 section.homeSignin .homeSigninCenter .diamond {
   position: absolute;
   bottom: 30px;
 }
-/* line 316, ../sass/main.sass */
+/* line 331, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 {
   background: #090a0b;
   color: white;
@@ -392,71 +415,71 @@ section.homeSignin .homeSigninRight h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 328, ../sass/main.sass */
+/* line 343, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2 span {
   color: #256aa9;
 }
-/* line 330, ../sass/main.sass */
+/* line 345, ../sass/main.sass */
 section.homeSignin .homeSigninRight h2.first-child {
   margin-top: 20px;
 }
-/* line 332, ../sass/main.sass */
+/* line 347, ../sass/main.sass */
 section.homeSignin .homeSigninRight p {
   margin-left: 30px;
 }
 
-/* line 336, ../sass/main.sass */
+/* line 351, ../sass/main.sass */
 section.diamondLine {
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
 }
-/* line 338, ../sass/main.sass */
+/* line 353, ../sass/main.sass */
 section.diamondLine .diamond {
   margin-top: -25px;
 }
 
-/* line 342, ../sass/main.sass */
+/* line 357, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
   background-image: url("../images/bg-main.jpg");
   background-repeat: repeat;
   padding: 30px 0px;
 }
-/* line 348, ../sass/main.sass */
+/* line 363, ../sass/main.sass */
 section.homeWidget .row {
   border-top: 1px solid #2d3037;
   border-bottom: 1px solid #2d3037;
 }
-/* line 352, ../sass/main.sass */
+/* line 367, ../sass/main.sass */
 section.homeWidget .row .large-8 {
   border-left: 1px solid #2d3037;
 }
-/* line 354, ../sass/main.sass */
+/* line 369, ../sass/main.sass */
 section.homeWidget .row .latestNews h4 {
   text-align: center;
 }
-/* line 356, ../sass/main.sass */
+/* line 371, ../sass/main.sass */
 section.homeWidget .row h4 {
   color: white;
   margin-top: 10px;
 }
-/* line 359, ../sass/main.sass */
+/* line 374, ../sass/main.sass */
 section.homeWidget .row small {
   color: white;
 }
 
-/* line 362, ../sass/main.sass */
+/* line 377, ../sass/main.sass */
 section.homeAbout {
   background-color: black;
   min-height: 300px;
   padding-top: 20px;
 }
-/* line 367, ../sass/main.sass */
+/* line 382, ../sass/main.sass */
 section.homeAbout h2 {
   color: white;
 }
-/* line 369, ../sass/main.sass */
+/* line 384, ../sass/main.sass */
 section.homeAbout h2 span {
   color: #bd0000;
 }
@@ -464,13 +487,13 @@ section.homeAbout h2 span {
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 377, ../sass/main.sass */
+/* line 392, ../sass/main.sass */
 section.mainContent {
   background: url("../images/bg-main.jpg");
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 383, ../sass/main.sass */
+/* line 398, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox {
   overflow: hidden;
   background: #24282c;
@@ -479,30 +502,30 @@ section.mainContent .sidebar .sidebarBox {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
 }
-/* line 389, ../sass/main.sass */
+/* line 404, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto {
   text-align: center;
 }
-/* line 391, ../sass/main.sass */
+/* line 406, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox {
   width: 303px;
   height: 303px;
 }
-/* line 394, ../sass/main.sass */
+/* line 409, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox img {
   background: white;
   width: 303px;
   height: auto;
   border-bottom: 10px solid #256aa9;
 }
-/* line 399, ../sass/main.sass */
+/* line 414, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h2 {
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 408, ../sass/main.sass */
+/* line 423, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   color: #256aa9;
   font-size: 1.125em;
@@ -510,22 +533,22 @@ section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/* line 415, ../sass/main.sass */
+/* line 430, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul {
   list-style: none;
   margin-bottom: 0;
 }
-/* line 418, ../sass/main.sass */
+/* line 433, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li {
   border-top: 1px solid rgba(192, 192, 192, 0.1);
 }
-/* line 420, ../sass/main.sass */
+/* line 435, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a {
   display: block;
   padding: 15px 20px;
   border-left: 5px solid #24282c;
 }
-/* line 424, ../sass/main.sass */
+/* line 439, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a:hover {
   border-left: 5px solid #256aa9;
   background: #090a0b;
@@ -537,11 +560,11 @@ section.mainContent .sidebar .sidebarBox ul li a:hover {
   background: linear-gradient(to bottom, rgba(4, 5, 5, 0.3) 0%, rgba(36, 40, 44, 0.2) 15%, rgba(36, 40, 44, 0.2) 85%, rgba(4, 5, 5, 0.3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparentize($black / 2, 0.7)', endColorstr='transparentize($black / 2, 0.7)',GradientType=0 );
 }
-/* line 435, ../sass/main.sass */
+/* line 450, ../sass/main.sass */
 section.mainContent .sidebar .sidebarWidget {
   border-bottom: 1px solid rgba(192, 192, 192, 0.1);
 }
-/* line 438, ../sass/main.sass */
+/* line 453, ../sass/main.sass */
 section.mainContent .mainContainer section {
   background: #24282c;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
@@ -553,22 +576,22 @@ section.mainContent .mainContainer section {
 
 /*  registration
  * ================================================== */
-/* line 448, ../sass/main.sass */
+/* line 463, ../sass/main.sass */
 section.registrationMain legend {
   font-size: 1.5em;
   background-color: transparent;
   color: white;
 }
-/* line 452, ../sass/main.sass */
+/* line 467, ../sass/main.sass */
 section.registrationMain select {
   border: 1px solid #cccccc;
   height: 2em;
 }
-/* line 455, ../sass/main.sass */
+/* line 470, ../sass/main.sass */
 section.registrationMain .row {
   margin-bottom: 10px;
 }
-/* line 457, ../sass/main.sass */
+/* line 472, ../sass/main.sass */
 section.registrationMain .btnWhite {
   border: 1px solid white;
   color: white;
@@ -579,7 +602,7 @@ section.registrationMain .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 466, ../sass/main.sass */
+/* line 481, ../sass/main.sass */
 section.registrationMain .btnWhite:hover {
   background: #256aa9;
 }
@@ -587,18 +610,18 @@ section.registrationMain .btnWhite:hover {
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 473, ../sass/main.sass */
+/* line 488, ../sass/main.sass */
 .profileMain hr {
   border: 1px solid rgba(192, 192, 192, 0.1);
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 478, ../sass/main.sass */
+/* line 493, ../sass/main.sass */
 .profileMain h2 {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 481, ../sass/main.sass */
+/* line 496, ../sass/main.sass */
 .profileMain .profileStatus {
   background: url("../images/bg-pattern-black.png") #090a0b;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
@@ -606,33 +629,33 @@ section.registrationMain .btnWhite:hover {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin: 40px 0 20px 0;
 }
-/* line 485, ../sass/main.sass */
+/* line 500, ../sass/main.sass */
 .profileMain .profileStatus .diamond {
   margin-top: -25px;
 }
-/* line 487, ../sass/main.sass */
+/* line 502, ../sass/main.sass */
 .profileMain .profileStatus h5 {
   color: #535c65;
   margin-bottom: 20px;
   font-weight: 500;
 }
-/* line 491, ../sass/main.sass */
+/* line 506, ../sass/main.sass */
 .profileMain .profileStatus .large-12 {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 499, ../sass/main.sass */
+/* line 514, ../sass/main.sass */
 .profileMain .profileNumbers div {
   border-right: 1px solid rgba(192, 192, 192, 0.1);
   margin-bottom: 20px;
 }
-/* line 502, ../sass/main.sass */
+/* line 517, ../sass/main.sass */
 .profileMain .profileNumbers div h2 {
   margin-top: 20px;
   margin-bottom: 0;
   displa: inline;
 }
-/* line 508, ../sass/main.sass */
+/* line 523, ../sass/main.sass */
 .profileMain .profileNumbers div h5 {
   margin-top: 0;
   margin-bottom: 20px;
