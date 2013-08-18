@@ -32,10 +32,16 @@ include 'includes/header.php';
 				<h4>Summoners List</h4>
 			</section>
 		</div>
-		<div class="large-8 columns">
+		<div class="large-8 columns mainContent">
 			<section class="activityFeed">
-				<p>Activity feed title (Example: Tim joined my team Proving Grounds.)</p>
-				<small>Activity Time (Example: 5 secs ago)</small>
+				<p>Find Out Who Else is Using Proving Grounds</p>
+				<p>Subtitle</p>
+				<input type="email" placeholder="your@email.com">
+				<input type="submit" value="Continue">
+			</section>
+			<section class="activityFeed">
+				<p>Activity feed title (Example: Tim joined my team <a href="">Proving Grounds</a>.)</p>
+				<p>Activity Time (Example: 5 secs ago)</p>
 			</section>
 		</div>
 	</div>

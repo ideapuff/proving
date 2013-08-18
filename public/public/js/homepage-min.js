@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=$(window).height();e-=75;$(".homeTop").css("height",e);$(".circle").mouseover(function(){newSrc=$(this).attr("src").replace("-1.png","-get-started.png");$(this).attr("src",newSrc)})});

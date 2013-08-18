@@ -8,6 +8,10 @@ $blue: #256aa9
 	-webkit-box-shadow:  $shadow
 	-moz-box-shadow:  $shadow
 	box-shadow:  $shadow
+=fade($element, $time)
+	transition: $element $time linear
+	-moz-transition: $element $time linear
+	-webkit-transition: $element $time linear
 
 small, strong
 	color: white
@@ -71,7 +75,12 @@ section.mainContent
 							background: -ms-linear-gradient(top,  transparentize($black / 2, 0.7) 0%,transparentize(#24282c, 0.8) 15%,transparentize(#24282c, 0.8) 85%,transparentize($black / 2, 0.7) 100%)
 							background: linear-gradient(to bottom,  transparentize($black / 2, 0.7) 0%,transparentize(#24282c, 0.8) 15%,transparentize(#24282c, 0.8) 85%,transparentize($black / 2, 0.7) 100%)
 							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparentize($black / 2, 0.7)', endColorstr='transparentize($black / 2, 0.7)',GradientType=0 )
-
+	.mainContent
+		section
+			background: $black * 4
+			+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))
+			padding: 20px
+			margin-bottom: 20px
 
 
 
