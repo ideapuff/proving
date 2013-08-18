@@ -1,62 +1,6 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en" >
-    <head>
-        <!-- Basic Page Needs
-        ================================================== -->
-        <meta charset="utf-8">
-        <title>Proving Grounds</title>
-        <meta name="description" content="Proving">
-        <!-- Mobile Specific Metas
-        ================================================== -->
-        <meta name="viewport" content="width=device-width">
-        <!-- CSS
-        ================================================== -->
-        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/app.css">
-        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/main.css">
-        <!-- JS
-        ================================================== -->
-        <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
-        <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
-        <!-- Favicons
-        ================================================== -->
-        <link rel="shortcut icon" href="<?= BASE_URL?>/public/images/favicon.ico">
-        <link rel="apple-touch-icon" href="<?= BASE_URL?>/public/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="<?= BASE_URL?>/public/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="<?= BASE_URL?>/public/images/apple-touch-icon-114x114.png">
-    </head>
-    <body>
-        <section class="homeTop">
-            <div class="row">
-                <div class="large-10 small-centered columns">
-                    <img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt="">
-                    <h1><span>Prove it.</span> Be the best you can be.</h1>
-                    <h3>Right teammates meet Right here, an easiest way to find the best teammates. Real life activity feed on your dashboard about your friend, your team, your community, and the people you followed.</h3>
-                    <div class="actionBtn">
-                        <a href="#learn-more" class="btnWhite">Learn More</a>
-                        <a href="#get-started" class="btnWhite">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <header class="topNav">
-            <div class="row">
-                <div class="large-5 columns">
-                    <img src="<?= BASE_URL?>/public/images/logo.png" alt="">
-                </div>
-                <div class="large-2 columns text-center">
-                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
-                </div>
-                <nav class="large-5 columns">
-                    <ul class="large-block-grid-4">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Sign-in</a></li>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Search</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+<?php
+include 'includes/header.php';
+?>
         <section class="homeMain">
             <div class="row">
                 <div class="large-5 columns homeMainLeft">
@@ -96,57 +40,32 @@
         </section>
         <section class="homeWidget">
             <div class="row">
-                <div class="large-4 columns">
+                <div class="large-4 columns latestNews">
                     <h4>Latest News</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, vero, ratione saepe delectus beatae dolorum consequatur maxime explicabo accusantium asperiores perspiciatis molestias aut praesentium. Architecto corrupti eligendi dolorem consectetur itaque.</p>
-                    <small>Aug. 18. 2013</small>
+                    <p><small>Aug. 18. 2013</small></p>
                 </div>
                 <div class="large-8 columns">
                     <h4>Check Out New Members</h4>
                 </div>
             </div>
         </section>
+        <section class="diamondLine">
+            <div class="row">
+                <div class="large-12 large-centered columns text-center">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
+                </div>
+            </div>
+        </section>
         <section class="homeAbout">
             <div class="row">
                 <div class="large-12 columns">
-                    <h2>About Proving Grounds</h2>
+                    <h2>About <span>Proving Grounds</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, atque minus architecto ex repellendus culpa magnam ab unde necessitatibus error dignissimos quis ipsum tempora et obcaecati tenetur magni debitis voluptatum?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, atque minus architecto ex repellendus culpa magnam ab unde necessitatibus error dignissimos quis ipsum tempora et obcaecati tenetur magni debitis voluptatum?</p>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="row">
-                <nav class="large-5 columns">
-                    <ul class="large-block-grid-4">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Sign-in</a></li>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Search</a></li>
-                    </ul>
-                </nav>
-                <div class="large-2 columns">
-                    © IdeaPuff, Inc. 2013.
-                </div>
-                <div class="large-5 columns">
-                    social icons
-                </div>
-            </div>
-        </footer>
-        <script>
-        document.write('<script src=' +
-        ('__proto__' in {} ? 'public/js/vendor/zepto' : 'public/js/vendor/jquery') +
-        '.js><\/script>')
-        </script>
-        <script src="public/js/foundation/foundation.js"></script>
-        <script src="public/js/foundation/foundation.abide.js"></script>
-        ]        <script src="public/js/foundation/foundation.joyride.js"></script>
-        <script src="public/js/foundation/foundation.magellan.js"></script>
-        <script src="public/js/foundation/foundation.orbit.js"></script>
-        <script src="public/js/foundation/foundation.placeholder.js"></script>
-        <script src="public/js/foundation/foundation.section.js"></script>
-        <script src="public/js/foundation/foundation.tooltips.js"></script>
-        <script>
-        $(document).foundation();
-        </script>
-    </body>
-</html>
+<?php
+include 'includes/footer.php';
+?>

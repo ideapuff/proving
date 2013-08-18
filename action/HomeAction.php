@@ -6,9 +6,9 @@
  */
 
 class HomeAction extends AbstractAction {
-
     public function execute() {
-        $this->loadView('home');
+        $this->loadView('home', array('page'=>'home'));
+//        $this->loadView('home');
     }
 
 }
