@@ -5,7 +5,7 @@ include 'includes/header.php';
     <div class="row">
         <div class="large-5 columns homeMainLeft">
             <a name="learn-more" class="anchorOffset"></a>
-            <h2 class="first-child">All about <span>YOU</span></h2>
+            <h2 class="first-child">Filter <span>Search</span></h2>
             <p>Filter search by rankings, characters, prefered positions, and languages, then find the right person to play together.</p>
 
             <h2><span>Honor </span>system</h2>
@@ -167,10 +167,6 @@ include 'includes/header.php';
         </div>
         <div class="large-8 columns">
             <h4>Check Out New Members</h4>
-            <img src="<?= BASE_URL ?>/public/images/new-sum-1.png" alt="">
-            <img src="<?= BASE_URL ?>/public/images/new-sum-2.png" alt="">
-            <img src="<?= BASE_URL ?>/public/images/new-sum-3.png" alt="">
-            <img src="<?= BASE_URL ?>/public/images/new-sum-4.png" alt="">
         </div>
     </div>
 </section>
