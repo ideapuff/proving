@@ -13,7 +13,7 @@
 class LoginAction extends AbstractAction {
 
     public function execute() {
-        ;
+        $this->loadView('login');
     }
 
 }

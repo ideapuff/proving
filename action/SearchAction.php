@@ -10,8 +10,12 @@
  *
  * @author xz71
  */
-class SearchAction {
-    //put your code here
+class SearchAction extends AbstractAction {
+
+    public function execute() {
+        $this->loadView('search');
+    }
+
 }
 
 ?>

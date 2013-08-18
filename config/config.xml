@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <globals>
-        <global name="BASE_URL" value="http://localhost:8888/proving/" />
+        <global name="BASE_URL" value="http://localhost/proving/" />
     </globals>
     <classes>
         <class name="IAction" path="model/IAction.php" />
@@ -9,6 +9,7 @@
         <class name="TestModel" path="model/TestModel.php" />
     </classes>
     <actions>
+        <action name="testAction" path="action/TestAction.php" />
         <action name="dashboard" path="action/DashboardAction.php" />
         <action name="home" path="action/HomeAction.php" />
         <action name="login" path="action/LoginAction.php" />

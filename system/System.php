@@ -41,6 +41,38 @@ class System {
         }
     }
 
+    public function runQuery($query, $params) {
+        try {
+            $mysqli = new mysqli("localhost", "root", "", "proving", "3306");
+            if ($mysqli->connect_error) {
+                $fe = new Framework("Error in mysqli connection: " . $mysqli->connect_errno);
+                throw $fe;
+            }
+
+            $statement = $mysqli->prepare($query);
+            $refs = array();
+            foreach ($params as $key => $value) {
+                $refs[$key] = &$params[$key];
+            }
+            call_user_func_array(array($statement, 'bind_param'), $refs);
+            $statement->store_result();
+            $statement->bind_result($value);
+            $statement->execute();
+            $result = array();
+            while ($statement->fetch()) {
+                $result[] = $value;
+            }
+
+            $statement->close();
+            $mysqli->close();
+
+            return $result;
+        } catch (Exception $e) {
+            $fe = new FrameworkException("Error in System::runQuery", $e);
+            throw $fe;
+        }
+    }
+
     public function loadGlobals() {
         $simplexml_globals = $this->getNode('globals');
         foreach ($simplexml_globals as $global) {

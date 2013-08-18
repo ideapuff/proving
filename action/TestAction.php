@@ -8,7 +8,15 @@
 class TestAction extends AbstractAction {
 
     public function execute() {
-        $this->loadView('testView', array('test' => 'test'));
+        try {
+            $query = "SELECT profileId FROM Profile WHERE profileId >= ? AND profileId <= ?";
+            $params = array('ii', 1, 2);
+            $result = System::getInstance()->runQuery($query, $params);
+            var_dump($result);
+        } catch (Exception $e) {
+            $fe = new FrameworkException("Error in TestAction::execute");
+            throw $fe;
+        }
     }
 
 }
