@@ -96,20 +96,28 @@
         </section>
         <section class="homeWidget">
             <div class="row">
-                <div class="large-4 columns">
+                <div class="large-4 columns latestNews">
                     <h4>Latest News</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, vero, ratione saepe delectus beatae dolorum consequatur maxime explicabo accusantium asperiores perspiciatis molestias aut praesentium. Architecto corrupti eligendi dolorem consectetur itaque.</p>
-                    <small>Aug. 18. 2013</small>
+                    <p><small>Aug. 18. 2013</small></p>
                 </div>
                 <div class="large-8 columns">
                     <h4>Check Out New Members</h4>
                 </div>
             </div>
         </section>
+        <section class="diamondLine">
+            <div class="row">
+                <div class="large-12 large-centered columns text-center">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
+                </div>
+            </div>
+        </section>
         <section class="homeAbout">
             <div class="row">
                 <div class="large-12 columns">
-                    <h2>About Proving Grounds</h2>
+                    <h2>About <span>Proving Grounds</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, atque minus architecto ex repellendus culpa magnam ab unde necessitatibus error dignissimos quis ipsum tempora et obcaecati tenetur magni debitis voluptatum?</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, atque minus architecto ex repellendus culpa magnam ab unde necessitatibus error dignissimos quis ipsum tempora et obcaecati tenetur magni debitis voluptatum?</p>
                 </div>
             </div>
@@ -125,7 +133,8 @@
                     </ul>
                 </nav>
                 <div class="large-2 columns">
-                    © IdeaPuff, Inc. 2013.
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
+                    <p>© IdeaPuff, Inc. 2013.</p>
                 </div>
                 <div class="large-5 columns">
                     social icons
