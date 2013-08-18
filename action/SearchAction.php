@@ -17,8 +17,14 @@ class SearchAction extends AbstractAction {
 //        $params = array('ii', 1, 2);
 //        $result = System::getInstance()->runQuery($query, $params);
 //        var_dump($result);
+//        echo 'ggggggggg';
+//        $login = '';
+//        if (!empty($_GET['login'])) {
+//            $login = $_GET['login'];
+//        }
+//        echo $login;
         
-        $this->loadView('search');
+        $this->loadView('search', array('login'=>$login));
     }
 
 }

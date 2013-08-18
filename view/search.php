@@ -3,7 +3,11 @@ include 'includes/header.php';
 ?>
 <section class="mainContent scollOffset">
     <div class="row">
+
+
         <?php include 'includes/sidebar.php'; ?>
+
+
         <div class="large-8 columns mainContainer">
             <section class="searchMain row">
                 <div class="row">
@@ -125,12 +129,13 @@ include 'includes/header.php';
                         <legend style="font-size: 1.5em;
                                 background-color: transparent;
                                 color: white;">Search Result</legend>
-                    </fieldset>
-                    <div class="row">
-                        <div class="large-12 columns">
-
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <img src="<?= BASE_URL ?>/public/images/search.png" alt="" style="width: 90%;"/>
+                            </div>
                         </div>
-                    </div>
+                    </fieldset>
+
                 </form>
             </section>
         </div>
