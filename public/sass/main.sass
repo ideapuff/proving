@@ -60,6 +60,9 @@ p
  * ==================================================
 
 section
+	.anchorOffset
+		position: absolute
+		top: -145px
 	&.homeTop
 		height: 450px
 		// border: 1px solid red
@@ -104,7 +107,7 @@ section
 			-moz-background-size: cover
 			background-size: cover
 		min-height: 526px
-		min-width: 1000px
+		min-width: 1300px
 		.row
 			// border: 1px solid red
 		.upperDiamond
@@ -160,6 +163,136 @@ section
 			.diamond
 				position: absolute
 				bottom: 30px
+	&.homeSignup
+		background:
+			image: url('../images/signup-slide.jpg')
+			position: top center
+			repeat: no-repeat
+			// size: 100% auto
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			background-size: cover
+		min-height: 526px
+		min-width: 1000px
+		.homeSignupLeft
+			h2
+				background: $black
+				color: white
+				font:
+					size: 18px
+				padding: 10px
+				display: inline-block
+				border:
+					left: 6px solid $red
+					top: 2px solid $red
+					right: 2px solid $red
+					bottom: 2px solid $red
+				span
+					color: $red
+			h2.first-child
+				margin-top: 20px
+			p
+				margin:
+					left: 30px
+		.homeSignupCenter
+			position:relative
+			.circle
+				position: absolute
+				top: 180px
+				left: 0px
+				cursor: pointer
+			.diamond
+				position: absolute
+				bottom: 30px
+		.homeSignupRight
+			h2
+				color: white
+				font:
+					size: 28px
+				padding: 10px 0px
+				display: inline-block
+			.btnWhite
+				border: 1px solid white
+				color: white
+				margin: 0px
+				padding: 15px 30px
+				font-weight: 700
+				text-transform: uppercase
+				letter-spacing: 1px
+				background-color: $black
+			.btnWhite:hover
+				background: $blue
+			.actionBtn a
+				color: white
+				padding: 15px 0px
+				line-height: 40px
+			.actionBtn a:hover
+				text-decoration: underline
+	&.homeSignin
+		background:
+			image: url('../images/signin-slide.jpg')
+			position: top center
+			repeat: no-repeat
+			// size: 100% auto
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			background-size: cover
+		min-height: 526px
+		min-width: 1000px
+		.homeSigninLeft
+			h2
+				color: white
+				font:
+					size: 28px
+				padding: 10px 0px
+				display: inline-block
+			.btnWhite
+				border: 1px solid white
+				color: white
+				margin: 0px
+				padding: 15px 30px
+				font-weight: 700
+				text-transform: uppercase
+				letter-spacing: 1px
+				background-color: $black
+			.btnWhite:hover
+				background: $blue
+			.actionBtn a
+				color: white
+				padding: 15px 0px
+				line-height: 40px
+			.actionBtn a:hover
+				text-decoration: underline
+		.homeSigninCenter
+			position:relative
+			.circle
+				position: absolute
+				top: 180px
+				left: 0px
+				cursor: pointer
+			.diamond
+				position: absolute
+				bottom: 30px
+		.homeSigninRight
+			h2
+				background: $black
+				color: white
+				font:
+					size: 18px
+				padding: 10px
+				display: inline-block
+				border:
+					left: 6px solid $blue
+					top: 2px solid $blue
+					right: 2px solid $blue
+					bottom: 2px solid $blue
+				span
+					color: $blue
+			h2.first-child
+				margin-top: 20px
+			p
+				margin:
+					left: 30px
 	&.diamondLine
 		.diamond
 			margin-top: -25px
@@ -194,7 +327,6 @@ header
 			top: 10px solid red
 		&[data-magellan-expedition] 
 			background: url('../images/bg-pattern-black.png') $black
-
 		padding:
 			top: 10px
 
