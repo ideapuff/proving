@@ -10,7 +10,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo $test;
+        echo 'test';
         ?>
     </body>
 </html>

@@ -10,8 +10,12 @@
  *
  * @author xz71
  */
-class ProfileAction {
-    //put your code here
+class ProfileAction extends AbstractAction {
+
+    public function execute() {
+        $this->loadView('profile');
+    }
+
 }
 
 ?>

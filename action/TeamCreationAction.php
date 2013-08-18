@@ -10,8 +10,12 @@
  *
  * @author xz71
  */
-class TeamCreationAction {
-    //put your code here
+class TeamCreationAction extends AbstractAction {
+
+    public function execute() {
+        $this->loadView('teamCreation');
+    }
+
 }
 
 ?>

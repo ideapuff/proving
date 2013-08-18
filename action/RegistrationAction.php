@@ -10,8 +10,12 @@
  *
  * @author xz71
  */
-class RegistrationAction {
-    //put your code here
+class RegistrationAction extends AbstractAction {
+
+    public function execute() {
+        $this->loadView('registration');
+    }
+
 }
 
 ?>

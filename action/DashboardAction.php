@@ -11,9 +11,11 @@
  * @author xz71
  */
 class DashboardAction extends AbstractAction {
+
     public function execute() {
         $this->loadView('dashboard');
     }
+
 }
 
 ?>
