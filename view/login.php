@@ -10,7 +10,12 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'login';
+        if (isset($error)) {
+            echo $error . '<br/>';
+        }
+        ?>
+        <?php
+        echo 'login<br/>';
         ?>
     </body>
 </html>
