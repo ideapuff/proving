@@ -55,7 +55,7 @@ section.homeTop {
 /* line 67, ../sass/main.sass */
 section.homeTop .row {
   position: relative;
-  top: 20%;
+  top: 10%;
 }
 /* line 70, ../sass/main.sass */
 section.homeTop .row .logo {
@@ -96,38 +96,82 @@ section.homeTop .row .actionBtn a.btnWhite:hover {
 /* line 95, ../sass/main.sass */
 section.homeMain {
   background-image: url("../images/home-main.jpg");
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
-/* line 103, ../sass/main.sass */
+/* line 104, ../sass/main.sass */
+section.homeMain .upperDiamond {
+  position: absolute;
+  top: 0px;
+}
+/* line 108, ../sass/main.sass */
+section.homeMain .homeMainRight h2 {
+  background: #090a0b;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  display: inline-block;
+  border-left: 6px solid #bd0000;
+  border-top: 2px solid #bd0000;
+  border-right: 2px solid #bd0000;
+  border-bottom: 2px solid #bd0000;
+}
+/* line 120, ../sass/main.sass */
+section.homeMain .homeMainRight h2 span {
+  color: #bd0000;
+}
+/* line 122, ../sass/main.sass */
+section.homeMain .homeMainRight h2.first-child {
+  margin-top: 20px;
+}
+/* line 124, ../sass/main.sass */
+section.homeMain .homeMainRight p {
+  font-size: 15px;
+  margin-left: 30px;
+}
+/* line 131, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: white;
-  font-size: 16px;
-  padding: 5px;
+  font-size: 18px;
+  padding: 10px;
   display: inline-block;
-}
-/* line 110, ../sass/main.sass */
-section.homeMain .homeMainLeft h2 span {
-  color: #256aa9;
-}
-/* line 112, ../sass/main.sass */
-section.homeMain .homeMainLeft h2.first-child {
   border-left: 6px solid #256aa9;
   border-top: 2px solid #256aa9;
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 118, ../sass/main.sass */
+/* line 143, ../sass/main.sass */
+section.homeMain .homeMainLeft h2 span {
+  color: #256aa9;
+}
+/* line 145, ../sass/main.sass */
+section.homeMain .homeMainLeft h2.first-child {
+  margin-top: 20px;
+}
+/* line 147, ../sass/main.sass */
+section.homeMain .homeMainLeft p {
+  font-size: 15px;
+  margin-left: 30px;
+}
+/* line 153, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
 }
 
-/* line 122, ../sass/main.sass */
+/* line 157, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
 }
-/* line 125, ../sass/main.sass */
+/* line 160, ../sass/main.sass */
 header .row {
   margin-top: 10px;
+}
+/* line 164, ../sass/main.sass */
+header .row .diamond {
+  position: relative;
+  left: 50%;
+  margin-left: -40px;
+  top: 50px;
 }

@@ -18,7 +18,6 @@
         <script src="<?= BASE_URL?>/public/js/vendor/custom.modernizr.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/jquery-1.7.2.min.js"></script>
         <script language="JavaScript" type="text/JavaScript" src="<?= BASE_URL?>/public/js/homepage.js"></script>
-
         <!-- Favicons
         ================================================== -->
         <link rel="shortcut icon" href="<?= BASE_URL?>/public/images/favicon.ico">
@@ -32,7 +31,7 @@
                 <div class="large-10 small-centered columns">
                     <img class="logo" src="<?= BASE_URL?>/public/images/logo.png" alt="">
                     <h1><span>Prove it.</span> Be the best you can be.</h1>
-                    <h3>Nam ut magna risus. Cras vestibulum sagittis lacinia. Pellentesque et cursus velit, id pretium enim. Fusce vel mollis tortor. </h3>
+                    <h3>Right teammates meet Right here, an easiest way to find the best teammates. Real life activity feed on your dashboard about your friend, your team, your community, and the people you followed.</h3>
                     <div class="actionBtn">
                         <a href="#learn-more" class="btnWhite">Learn More</a>
                         <a href="#get-started" class="btnWhite">Get Started</a>
@@ -42,7 +41,12 @@
         </section>
         <header class="topNav">
             <div class="row">
-                <div class="large-7 columns"><img src="" alt="">logo</div>
+                <div class="large-5 columns">
+                    <img src="<?= BASE_URL?>/public/images/logo.png" alt="">
+                </div>
+                <div class="large-2 columns">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond.png" alt="">
+                </div>
                 <nav class="large-5 columns">
                     <ul class="large-block-grid-4">
                         <li><a href="">About</a></li>
@@ -55,34 +59,26 @@
         </header>
         <section class="homeMain">
             <div class="row">
+                <!-- <img class="lowerDiamond" src="<?= BASE_URL?>/public/images/diamond.png" alt=""> -->
                 <div class="large-6 columns homeMainLeft">
                     <a name="learn-more"></a>
-                    <h2 class="first-child">It's all about <span>YOU</span>.</h2>
-                    <p>We understand gaming is your profession. <br/>
-                    You deserve a professional proﬁle too.</p>
-                    <ul>
-                        <li>customizable proﬁle page</li>
-                        <li>inbox</li>
-                        <li>freind list</li>
-                    </ul>
-                    <h2>Get the right <span>TEAMMATES</span>.</h2>
-                    <p>You will get a professional proﬁle page. We understand gaming is your profession. You deserve a professional proﬁle too. </p>
-                    <ul>
-                        <li>Team page &amp; communication</li>
-                        <li>community</li>
-                        <li>freind list</li>
-                    </ul>
-                    <h2>It’s all realtime <span>ACTIVITY FEED</span>.</h2>
-                    <p>Simple, clear and fast. That’s all you want, and we get it for you.</p>
+                    <h2 class="first-child">All about <span>YOU</span>.</h2>
+                    <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
+                    
+                    <h2>Have your own <span>Team and Community</span>.</h2>
+                    <p>create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
+                    
+                    <h2><span>Report and Verify</span> System.</h2>
+                    <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us, your character information could not be used by other users anymore.</p>
                     <a href="">Sign-in</a>
                 </div>
                 <div class="large-6 columns homeMainRight">
-                    <h2>Powerful FILTER SEARCH.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
+                    <h2 class="first-child">Powerful <span>FILTER SEARCH</span>.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
                     <h2>It's all about YOU.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
                     <h2>It's all about YOU.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. Similique, atque.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
                     <a href="">Get Started</a>
                 </div>
             </div>
@@ -132,8 +128,7 @@
         </script>
         <script src="public/js/foundation/foundation.js"></script>
         <script src="public/js/foundation/foundation.abide.js"></script>
-        <script src="public/js/foundation/foundation.forms.js"></script>
-        <script src="public/js/foundation/foundation.joyride.js"></script>
+]        <script src="public/js/foundation/foundation.joyride.js"></script>
         <script src="public/js/foundation/foundation.magellan.js"></script>
         <script src="public/js/foundation/foundation.orbit.js"></script>
         <script src="public/js/foundation/foundation.placeholder.js"></script>

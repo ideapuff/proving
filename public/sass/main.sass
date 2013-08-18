@@ -66,7 +66,7 @@ section
 		position: relative
 		.row
 			position: relative
-			top: 20%
+			top: 10%
 			.logo
 				margin:
 					top: 50px
@@ -95,26 +95,61 @@ section
 	&.homeMain
 		background:
 			image: url('../images/home-main.jpg')
-			position: center
+			position: center center
 			repeat: no-repeat
+			size: 100% auto
+		.row
+			// position: relative
+			// border: 1px solid red
+		.upperDiamond
+			position: absolute
+			top: 0px
 		.homeMainRight
-			
+			h2
+				background: $black
+				color: white
+				font:
+					size: 18px
+				padding: 10px
+				display: inline-block
+				border:
+					left: 6px solid $red
+					top: 2px solid $red
+					right: 2px solid $red
+					bottom: 2px solid $red
+				span
+					color: $red
+			h2.first-child
+				margin-top: 20px
+			p
+				font:
+					size: 15px
+				margin:
+					// bottom: 0px
+					left: 30px
 		.homeMainLeft
 			h2
 				background: $black
 				color: white
 				font:
-					size: 16px
-				padding: 5px
+					size: 18px
+				padding: 10px
 				display: inline-block
-				span
-					color: $blue
-			h2.first-child
 				border:
 					left: 6px solid $blue
 					top: 2px solid $blue
 					right: 2px solid $blue
 					bottom: 2px solid $blue
+				span
+					color: $blue
+			h2.first-child
+				margin-top: 20px
+			p
+				font:
+					size: 15px
+				margin:
+					// bottom: 0px
+					left: 30px
 	&.homeWidget
 		background:
 			color: $silver
@@ -125,6 +160,12 @@ header
 	.row
 		margin:
 			top: 10px
+
+		.diamond
+			position: relative
+			left: 50%
+			margin-left: -40px
+			top: 50px
 footer
 
 
