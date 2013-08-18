@@ -44,8 +44,8 @@
                 <div class="large-5 columns">
                     <img src="<?= BASE_URL?>/public/images/logo.png" alt="">
                 </div>
-                <div class="large-2 columns">
-                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond.png" alt="">
+                <div class="large-2 columns text-center">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
                 </div>
                 <nav class="large-5 columns">
                     <ul class="large-block-grid-4">
@@ -59,7 +59,7 @@
         </header>
         <section class="homeMain">
             <div class="row">
-                <div class="large-6 columns homeMainLeft">
+                <div class="large-5 columns homeMainLeft">
                     <a name="learn-more"></a>
                     <h2 class="first-child">All about <span>YOU</span>.</h2>
                     <p>We understand gaming is your profession, you deserve a profession profile page. let people know your real experience in gaming. get messages from people who interested in team up with you.</p>
@@ -71,7 +71,12 @@
                     <p>When you notice someone tempts another gamer in the game, click the report button, we will begin our  investigation with time consuming. Request to be verified as a reliable member, once we confirmed your information confirmed by us, your character information could not be used by other users anymore.</p>
                     <a href="">Sign-in</a>
                 </div>
-                <div class="large-6 columns homeMainRight">
+                <div class="large-2 columns">
+                    <div class="homeMainCenter">
+                        <img class="circle" src="<?= BASE_URL?>/public/images/home-circle-1.png" alt="">
+                    </div>
+                </div>
+                <div class="large-5 columns homeMainRight">
                     <h2 class="first-child">Powerful <span>FILTER SEARCH</span>.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
                     <h2>It's all about YOU.</h2>
@@ -79,6 +84,13 @@
                     <h2>It's all about YOU.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nemo, numquam, natus, ab quos ipsa consectetur quas eos placeat ad blanditiis provident dignissimos atque error eaque quisquam ullam. </p>
                     <a href="">Get Started</a>
+                </div>
+            </div>
+        </section>
+        <section class="diamondLine">
+            <div class="row">
+                <div class="large-12 large-centered columns text-center">
+                    <img class="diamond" src="<?= BASE_URL?>/public/images/diamond-up.png" alt="">
                 </div>
             </div>
         </section>
@@ -127,7 +139,7 @@
         </script>
         <script src="public/js/foundation/foundation.js"></script>
         <script src="public/js/foundation/foundation.abide.js"></script>
-]        <script src="public/js/foundation/foundation.joyride.js"></script>
+        ]        <script src="public/js/foundation/foundation.joyride.js"></script>
         <script src="public/js/foundation/foundation.magellan.js"></script>
         <script src="public/js/foundation/foundation.orbit.js"></script>
         <script src="public/js/foundation/foundation.placeholder.js"></script>
