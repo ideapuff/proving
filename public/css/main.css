@@ -99,13 +99,18 @@ section.homeMain {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  margin-top: -10px;
 }
-/* line 104, ../sass/main.sass */
+/* line 102, ../sass/main.sass */
+section.homeMain .row {
+  border: 1px solid red;
+}
+/* line 105, ../sass/main.sass */
 section.homeMain .upperDiamond {
   position: absolute;
   top: 0px;
 }
-/* line 108, ../sass/main.sass */
+/* line 109, ../sass/main.sass */
 section.homeMain .homeMainRight h2 {
   background: #090a0b;
   color: white;
@@ -117,20 +122,20 @@ section.homeMain .homeMainRight h2 {
   border-right: 2px solid #bd0000;
   border-bottom: 2px solid #bd0000;
 }
-/* line 120, ../sass/main.sass */
+/* line 121, ../sass/main.sass */
 section.homeMain .homeMainRight h2 span {
   color: #bd0000;
 }
-/* line 122, ../sass/main.sass */
+/* line 123, ../sass/main.sass */
 section.homeMain .homeMainRight h2.first-child {
   margin-top: 20px;
 }
-/* line 124, ../sass/main.sass */
+/* line 125, ../sass/main.sass */
 section.homeMain .homeMainRight p {
   font-size: 15px;
   margin-left: 30px;
 }
-/* line 131, ../sass/main.sass */
+/* line 132, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 {
   background: #090a0b;
   color: white;
@@ -142,36 +147,36 @@ section.homeMain .homeMainLeft h2 {
   border-right: 2px solid #256aa9;
   border-bottom: 2px solid #256aa9;
 }
-/* line 143, ../sass/main.sass */
+/* line 144, ../sass/main.sass */
 section.homeMain .homeMainLeft h2 span {
   color: #256aa9;
 }
-/* line 145, ../sass/main.sass */
+/* line 146, ../sass/main.sass */
 section.homeMain .homeMainLeft h2.first-child {
   margin-top: 20px;
 }
-/* line 147, ../sass/main.sass */
+/* line 148, ../sass/main.sass */
 section.homeMain .homeMainLeft p {
   font-size: 15px;
   margin-left: 30px;
 }
-/* line 153, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 section.homeWidget {
   background-color: silver;
 }
 
-/* line 157, ../sass/main.sass */
+/* line 158, ../sass/main.sass */
 header.topNav {
   border-top: 10px solid red;
 }
-/* line 160, ../sass/main.sass */
+/* line 161, ../sass/main.sass */
 header .row {
-  margin-top: 10px;
+  padding-top: 10px;
 }
-/* line 164, ../sass/main.sass */
+/* line 165, ../sass/main.sass */
 header .row .diamond {
   position: relative;
   left: 50%;
   margin-left: -40px;
-  top: 50px;
+  top: 20px;
 }

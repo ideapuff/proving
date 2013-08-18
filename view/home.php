@@ -59,7 +59,6 @@
         </header>
         <section class="homeMain">
             <div class="row">
-                <!-- <img class="lowerDiamond" src="<?= BASE_URL?>/public/images/diamond.png" alt=""> -->
                 <div class="large-6 columns homeMainLeft">
                     <a name="learn-more"></a>
                     <h2 class="first-child">All about <span>YOU</span>.</h2>
