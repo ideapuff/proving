@@ -10,14 +10,14 @@ include 'includes/header.php';
 				<div class="row">
 					<div class="large-4 columns">
 						<div class="cropBox">
-							<img src="<?= BASE_URL ?>/public/images/photo2.png" alt="">
+							<img src="<?= BASE_URL ?>/public/images/photo.jpg" alt="">
 						</div>
 					</div>
 					<div class="large-8 columns">
-						<h2>Nickname</h2>
-						<h6>Hi, I'm Jarvan. I mostly play aggressive ADC, main Vayn and Tristana. Looking for a 5s rank team!</h6><br><br>
-						<a href="" class="btnWhite" style="margin-right: 20px;">Message</a>
-						<a href="" class="btnWhite">Follow</a>
+						<h2>Janna</h2>
+						<h6>Hi, I'm Janna. I mostly play aggressive ADC, main Vayn and Tristana. Looking for a 5s rank team!</h6><br><br>
+						<!-- <a href="" class="btnWhite" style="margin-right: 20px;">Message</a>
+						<a href="" class="btnWhite">Follow</a> -->
 					</div>
 				</div>
 				<div class="row profileStatus">

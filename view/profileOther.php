@@ -1,13 +1,7 @@
 <?php
 include 'includes/header.php';
 ?>
-<script>
-$(document).ready(function() {
-$(window).scroll(function() {
-$(".scollOffset").css("padding", "100px");
-});
-});
-</script>
+
 <section class="mainContent scollOffset">
 	<div class="row">
 		<?php include 'includes/sidebar.php'; ?>
@@ -20,7 +14,7 @@ $(".scollOffset").css("padding", "100px");
 						</div>
 					</div>
 					<div class="large-8 columns">
-						<h2>Nickname</h2>
+						<h2>Jarvan</h2>
 						<h6>Hi, I'm Jarvan. I mostly play aggressive ADC, main Vayn and Tristana. Looking for a 5s rank team!</h6><br><br>
 						<a href="" class="btnWhite" style="margin-right: 20px;">Message</a>
 						<a href="" class="btnWhite">Follow</a>

@@ -4,7 +4,7 @@
             <div class="cropBox">
                 <img src="<?= BASE_URL ?>/public/images/photo.jpg" alt="">
             </div>
-            <h2>UserName</h2>
+            <h2>Janna</h2>
             <h4>Level 2</h4>
         </div>
         <ul>
