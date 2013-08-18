@@ -47,18 +47,28 @@ include 'includes/header.php';
 					<hr>
 				</div>
 			</section>
-			<section class="badges row">
+			<section class="profileBadges row text-center">
+				<h3 class="text-left">Achievements</h3>
+				<hr>
 				<div class="small-6 large-3 columns">
-					<p>Badge 1</p>
+					<br><br><br><span class="icon-fire-station"></span>
+					<h2>20<br><small>Followers</small></h2>
+					<h5>FireHack</h5>
 				</div>
 				<div class="small-6 large-3 columns">
-					<p>Badge 2</p>
+					<br><br><br><span class="icon-flash"></span>
+					<h2>50<br><small>Followings</small></h2>
+					<h5>Lightenillian</h5>
 				</div>
 				<div class="small-6 large-3 columns">
-					<p>Badge 3</p>
+					<br><br><br><span class="icon-shield"></span>
+					<h2>250<small>Honors</small></h2>
+					<h5>RockZilian</h5>
 				</div>
 				<div class="small-6 large-3 columns">
-					<p>Badge 4</p>
+					<br><br><br><span class="icon-target"></span>
+					<h2>10<br><small>Summoners</small></h2>
+					<h5>NinjiaStealthy</h5>
 				</div>
 			</section>
 		</div>

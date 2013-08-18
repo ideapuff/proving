@@ -38,6 +38,14 @@ $blue: #256aa9
 	-moz-box-shadow: $shadow
 	box-shadow: $shadow
 
+.clear
+	clear: both
+	display: block
+	overflow: hidden
+	visibility: hidden
+	width: 0
+	height: 0
+
 /* 1. Site Styles
  * 		1.2. General Styles
  * ==================================================
@@ -461,6 +469,8 @@ section.registrationMain
 	select
 		border: 1px solid #cccccc
 		height: 2em
+	label
+		color: white
 	.row
 		margin-bottom: 10px
 	.btnWhite
@@ -488,7 +498,7 @@ section.registrationMain
 		font-weight: 500
 		margin-bottom: 0
 	.profileStatus
-		background: url("../images/bg-pattern-black.png") $black
+		background: $black
 		+box-shadow(0px 0px 10px 3px rgba(0, 0, 0, 0.3))
 		margin: 40px 0 20px 0
 		.diamond
@@ -502,9 +512,6 @@ section.registrationMain
 				left: 40px
 				right: 40px
 	.profileNumbers
-		// border:
-		// 	top: 1px solid transparentize(silver, 0.9)
-		// 	bottom: 1px solid transparentize(silver, 0.9)
 		div
 			border-right: 1px solid transparentize(silver, 0.9)
 			margin-bottom: 20px
@@ -513,9 +520,31 @@ section.registrationMain
 					top: 20px
 					bottom: 0
 				displa: inline
-				// border-right: 1px solid transparentize(silver, 0.9)
 			h5
 				margin:
 					top: 0
 					bottom: 20px
-				// border-right: 1px solid transparentize(silver, 0.9)
+				font-weight: 500
+
+.profileBadges
+	hr
+		border: 1px solid transparentize(silver, 0.9)
+	span
+		color: white
+		font-size: 2em
+		border: 1px solid white
+		height: 80px
+		width: 80px
+		padding: 20px 18px
+		+box-radius(40px)
+	h5
+		font-weight: 500
+	h2
+		font-weight: 500
+		margin-top: 30px
+		position: relative
+		small
+			font-size: 12px
+			position: absolute
+			bottom: 0
+			left: 35px

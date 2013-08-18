@@ -10,8 +10,8 @@
         <ul>
             <li><a href="<?= BASE_URL ?>/profile">Profile</a></li>
             <li><a href="">Achievements</a></li>
+            <li><a href="">Follow</a></li>
             <li><a href="">Inbox</a></li>
-            <!-- <li><a href="">Sub nav</a></li> -->
         </ul>
     </div>
     <section class="sidebarWidget">
