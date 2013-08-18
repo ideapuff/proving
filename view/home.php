@@ -71,13 +71,13 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="large-12 columns">
                         <label>Password</label>
-                        <input name="password" type="text" placeholder="Password">
+                        <input name="password" type="password" placeholder="Password">
                     </div>
                 </div>
                 <div class="row">
                     <div class="large-12 columns">
                         <label>Confirm Password</label>
-                        <input name="confirmPassword" type="text" placeholder="Confirm Password">
+                        <input name="confirmPassword" type="password" placeholder="Confirm Password">
                     </div>
                 </div>
                 <div class="actionBtn">
@@ -112,7 +112,7 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="large-12 columns">
                         <label>Password</label>
-                        <input type="text" placeholder="Password">
+                        <input type="password" placeholder="Password">
                     </div>
                 </div>
                 <div class="actionBtn">
