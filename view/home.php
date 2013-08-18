@@ -167,6 +167,10 @@ include 'includes/header.php';
         </div>
         <div class="large-8 columns">
             <h4>Check Out New Members</h4>
+            <img src="<?= BASE_URL ?>/public/images/new-sum-1.png" alt="">
+            <img src="<?= BASE_URL ?>/public/images/new-sum-2.png" alt="">
+            <img src="<?= BASE_URL ?>/public/images/new-sum-3.png" alt="">
+            <img src="<?= BASE_URL ?>/public/images/new-sum-4.png" alt="">
         </div>
     </div>
 </section>

@@ -10,14 +10,14 @@ include 'includes/header.php';
 				<div class="row">
 					<div class="large-4 columns">
 						<div class="cropBox">
-							<img src="<?= BASE_URL ?>/public/images/photo.jpg" alt="">
+							<img src="<?= BASE_URL ?>/public/images/photo2.png" alt="">
 						</div>
 					</div>
 					<div class="large-8 columns">
-						<h2>Janna</h2>
-						<h6>Hi, I'm Janna. I mostly play aggressive ADC, main Vayn and Tristana. Looking for a 5s rank team!</h6><br><br>
-						<!-- <a href="" class="btnWhite" style="margin-right: 20px;">Message</a>
-						<a href="" class="btnWhite">Follow</a> -->
+						<h2>Jarvan</h2>
+						<h6>Hi, I'm Jarvan. I mostly play aggressive ADC, main Vayn and Tristana. Looking for a 5s rank team!</h6><br><br>
+						<a href="" class="btnWhite" style="margin-right: 20px;">Message</a>
+						<a href="" class="btnWhite">Follow</a>
 					</div>
 				</div>
 				<div class="row profileStatus">
@@ -33,15 +33,15 @@ include 'includes/header.php';
 				<div class="row profileNumbers text-center">
 					<hr>
 					<div class="small-4 columns">
-						<h2>41</h2>
+						<h2>14</h2>
 						<h5>Followers</h5>
 					</div>
 					<div class="small-4 columns">
-						<h2>82</h2>
+						<h2>28</h2>
 						<h5>Following</h5>
 					</div>
 					<div class="small-4 columns" style="border-right: 0;">
-						<h2>277</h2>
+						<h2>27</h2>
 						<h5>Honors</h5>
 					</div>
 					<hr>
