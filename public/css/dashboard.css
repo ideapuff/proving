@@ -1,14 +1,42 @@
-/* line 1, ../sass/dashboard.sass */
+/* line 7, ../sass/dashboard.sass */
 small, strong {
   color: white;
 }
 
-/* line 3, ../sass/dashboard.sass */
+/* line 9, ../sass/dashboard.sass */
 h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-/* line 5, ../sass/dashboard.sass */
+/* line 11, ../sass/dashboard.sass */
 section.mainContent {
   background: url("../images/bg-main.jpg");
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 16, ../sass/dashboard.sass */
+section.mainContent .sidebar {
+  border: 1px solid white;
+}
+/* line 18, ../sass/dashboard.sass */
+section.mainContent .sidebar .userPhoto {
+  text-align: center;
+}
+/* line 20, ../sass/dashboard.sass */
+section.mainContent .sidebar .userPhoto .cropBox {
+  width: 303px;
+  height: 303px;
+  border-bottom: 5px solid #256aa9;
+}
+/* line 24, ../sass/dashboard.sass */
+section.mainContent .sidebar .userPhoto .cropBox img {
+  background: white;
+  width: 303px;
+  height: auto;
+}
+/* line 29, ../sass/dashboard.sass */
+section.mainContent .sidebar .userPhoto h2 {
+  border-top: 5px solid #256aa9;
+  font-size: 1.5em;
+  font-weight: 500;
 }

@@ -42,20 +42,37 @@
 		</header>
 		<section class="mainContent">
 			<div class="row">
-				<div class="large-4 columns">
+				<div class="large-4 columns sidebar">
 					<div class="userPhoto">
-						<img src="userImageURL" alt="">
-						<strong>UserName</strong><small>UserLevel</small>
+						<div class="cropBox">
+							<img src="<?= BASE_URL?>/public/images/photo.jpg" alt="">
+						</div>
+						<h2>UserName</h2>
+						<h4>UserLevel</h4>
 					</div>
 					<ul>
-						<li><a href="">Sub nav</a></li>
+						<li><a href="">Profile</a></li>
+						<li><a href="">Achievements</a></li>
 						<li><a href="">Sub nav</a></li>
 						<li><a href="">Sub nav</a></li>
 					</ul>
+					<section class="sidebarWidget">
+						<h3>Who's Viewed My Profile</h3>
+						<img src="" alt="">
+						<img src="" alt="">
+						<img src="" alt="">
+						<img src="" alt="">
+						<img src="" alt="">
+						<img src="" alt="">
+					</section>
+					<section class="sidebarWidget">
+						<h3>Summoners List</h3>
+
+					</section>
 				</div>
 				<div class="large-8 columns">
 					<section class="activityFeed">
-						<h4>Activity feed title (Example: Tim joined my team Proving Grounds.)</h4>
+						<p>Activity feed title (Example: Tim joined my team Proving Grounds.)</p>
 						<small>Activity Time (Example: 5 secs ago)</small>
 					</section>
 				</div>

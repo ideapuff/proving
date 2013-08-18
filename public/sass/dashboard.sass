@@ -1,8 +1,33 @@
+$black: #090a0b
+$red: #bd0000
+$gray: #535c65
+$silver: silver
+$blue: #256aa9
+
 small, strong
 	color: white
 h1, h2, h3, h4, h5, h6
 	color: white
 section.mainContent
 	background: url('../images/bg-main.jpg')
-	.userPhoto
-		// width:
+	padding:
+		top: 40px
+		bottom: 40px
+	.sidebar
+		border: 1px solid white
+		.userPhoto
+			text-align: center
+			.cropBox
+				width: 303px
+				height: 303px
+				border-bottom: 5px solid $blue
+				img
+					background: white
+					width: 303px
+					height: auto
+					// border-bottom: 5px solid $blue
+			h2
+				border-top: 5px solid $blue
+				font:
+					size: 1.5em
+					weight: 500
