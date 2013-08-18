@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6
 p
 	color: white
 	font-weight: 300
+	font-size: 0.875em
 
 
 
@@ -94,11 +95,15 @@ section
 					background: $blue
 	&.homeMain
 		background:
-			image: url('../images/home-main.jpg')
-			position: center center
+			image: url('../images/slide.jpg')
+			position: top center
 			repeat: no-repeat
-			size: 100% auto
-		margin-top: -10px
+			// size: 100% auto
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			background-size: cover
+		min-height: 526px
+		min-width: 1000px
 		.row
 			// position: relative
 			border: 1px solid red
@@ -123,10 +128,7 @@ section
 			h2.first-child
 				margin-top: 20px
 			p
-				font:
-					size: 15px
 				margin:
-					// bottom: 0px
 					left: 30px
 		.homeMainLeft
 			h2
@@ -146,11 +148,20 @@ section
 			h2.first-child
 				margin-top: 20px
 			p
-				font:
-					size: 15px
 				margin:
-					// bottom: 0px
 					left: 30px
+		.homeMainCenter
+			position:relative
+			.circle
+				position: absolute
+				top: 180px
+				left: 0px
+			.diamond
+				position: absolute
+				bottom: 30px
+	&.diamondLine
+		.diamond
+			margin-top: -25px
 	&.homeWidget
 		background:
 			color: $silver
@@ -164,9 +175,7 @@ header
 
 		.diamond
 			position: relative
-			left: 50%
-			margin-left: -40px
-			top: 20px
+			top: 30px
 footer
 
 
