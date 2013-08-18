@@ -57,7 +57,7 @@
                         <li><a href="<?= BASE_URL?>/home#about">About</a></li>
                         <li><a href="<?= BASE_URL?>/home#sign-in" class="haveAccount">Sign-in</a></li>
                         <li><a href="<?= BASE_URL?>/form">Forum</a></li>
-                        <li><a href=""><span class="icon-search"></span></a></li>
+                        <li><a href="<?= BASE_URL?>/search"><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
                 <? else:?>
@@ -70,7 +70,7 @@
                         <!-- <li><a href="<?= BASE_URL?>/inbox">Inbox</a></li> -->
                         <li><a href="<?= BASE_URL?>/forum">Forum</a></li>
                         <li><a href="<?= BASE_URL?>/home">Logout</a></li>
-                        <li><a href=""><span class="icon-search"></span></a></li>
+                        <li><a href="<?= BASE_URL?>/search"><span class="icon-search"></span></a></li>
                     </ul>
                 </nav>
                 <?php endif;?>

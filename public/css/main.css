@@ -469,18 +469,22 @@ section.homeWidget .row h4 {
 section.homeWidget .row small {
   color: white;
 }
+/* line 372, ../sass/main.sass */
+section.homeWidget img {
+  padding: 30px 10px;
+}
 
-/* line 373, ../sass/main.sass */
+/* line 374, ../sass/main.sass */
 section.homeAbout {
   background-color: black;
   min-height: 300px;
   padding-top: 20px;
 }
-/* line 378, ../sass/main.sass */
+/* line 379, ../sass/main.sass */
 section.homeAbout h2 {
   color: white;
 }
-/* line 380, ../sass/main.sass */
+/* line 381, ../sass/main.sass */
 section.homeAbout h2 span {
   color: #bd0000;
 }
@@ -488,13 +492,13 @@ section.homeAbout h2 span {
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 386, ../sass/main.sass */
+/* line 387, ../sass/main.sass */
 section.mainContent {
   background: url("../images/bg-main.jpg");
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 392, ../sass/main.sass */
+/* line 393, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox {
   overflow: hidden;
   background: #24282c;
@@ -503,30 +507,30 @@ section.mainContent .sidebar .sidebarBox {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
 }
-/* line 398, ../sass/main.sass */
+/* line 399, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto {
   text-align: center;
 }
-/* line 400, ../sass/main.sass */
+/* line 401, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox {
   width: 303px;
   height: 303px;
 }
-/* line 403, ../sass/main.sass */
+/* line 404, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto .cropBox img {
   background: white;
   width: 303px;
   height: auto;
   border-bottom: 10px solid #256aa9;
 }
-/* line 408, ../sass/main.sass */
+/* line 409, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h2 {
   font-size: 1.5em;
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 0;
 }
-/* line 417, ../sass/main.sass */
+/* line 418, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   color: #256aa9;
   font-size: 1.125em;
@@ -534,22 +538,22 @@ section.mainContent .sidebar .sidebarBox .userPhoto h4 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-/* line 424, ../sass/main.sass */
+/* line 425, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul {
   list-style: none;
   margin-bottom: 0;
 }
-/* line 427, ../sass/main.sass */
+/* line 428, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li {
   border-top: 1px solid rgba(192, 192, 192, 0.1);
 }
-/* line 429, ../sass/main.sass */
+/* line 430, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a {
   display: block;
   padding: 15px 20px;
   border-left: 5px solid #24282c;
 }
-/* line 433, ../sass/main.sass */
+/* line 434, ../sass/main.sass */
 section.mainContent .sidebar .sidebarBox ul li a:hover {
   border-left: 5px solid #256aa9;
   background: #090a0b;
@@ -561,11 +565,11 @@ section.mainContent .sidebar .sidebarBox ul li a:hover {
   background: linear-gradient(to bottom, rgba(4, 5, 5, 0.3) 0%, rgba(36, 40, 44, 0.2) 15%, rgba(36, 40, 44, 0.2) 85%, rgba(4, 5, 5, 0.3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparentize($black / 2, 0.7)', endColorstr='transparentize($black / 2, 0.7)',GradientType=0 );
 }
-/* line 444, ../sass/main.sass */
+/* line 445, ../sass/main.sass */
 section.mainContent .sidebar .sidebarWidget {
   border-bottom: 1px solid rgba(192, 192, 192, 0.1);
 }
-/* line 447, ../sass/main.sass */
+/* line 448, ../sass/main.sass */
 section.mainContent .mainContainer section {
   background: #24282c;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
@@ -577,22 +581,22 @@ section.mainContent .mainContainer section {
 
 /*  registration
  * ================================================== */
-/* line 456, ../sass/main.sass */
+/* line 457, ../sass/main.sass */
 section.registrationMain legend {
   font-size: 1.5em;
   background-color: transparent;
   color: white;
 }
-/* line 460, ../sass/main.sass */
+/* line 461, ../sass/main.sass */
 section.registrationMain select {
   border: 1px solid #cccccc;
   height: 2em;
 }
-/* line 463, ../sass/main.sass */
+/* line 464, ../sass/main.sass */
 section.registrationMain .row {
   margin-bottom: 10px;
 }
-/* line 465, ../sass/main.sass */
+/* line 466, ../sass/main.sass */
 section.registrationMain .btnWhite {
   border: 1px solid white;
   color: white;
@@ -603,7 +607,7 @@ section.registrationMain .btnWhite {
   letter-spacing: 1px;
   background-color: #090a0b;
 }
-/* line 474, ../sass/main.sass */
+/* line 475, ../sass/main.sass */
 section.registrationMain .btnWhite:hover {
   background: #256aa9;
 }
@@ -611,18 +615,18 @@ section.registrationMain .btnWhite:hover {
 /* 2. Page Styles
  * 		1.2. Dashboard
  * ================================================== */
-/* line 481, ../sass/main.sass */
+/* line 482, ../sass/main.sass */
 .profileMain hr {
   border: 1px solid rgba(192, 192, 192, 0.1);
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 486, ../sass/main.sass */
+/* line 487, ../sass/main.sass */
 .profileMain h2 {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 489, ../sass/main.sass */
+/* line 490, ../sass/main.sass */
 .profileMain .profileStatus {
   background: url("../images/bg-pattern-black.png") #090a0b;
   -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
@@ -630,33 +634,33 @@ section.registrationMain .btnWhite:hover {
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   margin: 40px 0 20px 0;
 }
-/* line 493, ../sass/main.sass */
+/* line 494, ../sass/main.sass */
 .profileMain .profileStatus .diamond {
   margin-top: -25px;
 }
-/* line 495, ../sass/main.sass */
+/* line 496, ../sass/main.sass */
 .profileMain .profileStatus h5 {
   color: #535c65;
   margin-bottom: 20px;
   font-weight: 500;
 }
-/* line 499, ../sass/main.sass */
+/* line 500, ../sass/main.sass */
 .profileMain .profileStatus .large-12 {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 507, ../sass/main.sass */
+/* line 508, ../sass/main.sass */
 .profileMain .profileNumbers div {
   border-right: 1px solid rgba(192, 192, 192, 0.1);
   margin-bottom: 20px;
 }
-/* line 510, ../sass/main.sass */
+/* line 511, ../sass/main.sass */
 .profileMain .profileNumbers div h2 {
   margin-top: 20px;
   margin-bottom: 0;
   displa: inline;
 }
-/* line 516, ../sass/main.sass */
+/* line 517, ../sass/main.sass */
 .profileMain .profileNumbers div h5 {
   margin-top: 0;
   margin-bottom: 20px;
