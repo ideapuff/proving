@@ -10,8 +10,10 @@
  *
  * @author xz71
  */
-class DashboardAction {
-    //put your code here
+class DashboardAction extends AbstractAction {
+    public function execute() {
+        $this->loadView('dashboard');
+    }
 }
 
 ?>
