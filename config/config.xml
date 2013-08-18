@@ -14,6 +14,7 @@
         <action name="home" path="action/HomeAction.php" />
         <action name="login" path="action/LoginAction.php" />
         <action name="profile" path="action/ProfileAction.php" />
+        <action name="profileOther" path="action/ProfileOtherAction.php" />
         <action name="registration" path="action/RegistrationAction.php" />
         <action name="search" path="action/SearchAction.php" />
         <action name="team" path="action/TeamAction.php" />
@@ -24,6 +25,7 @@
         <view name="home" path="view/home.php" />
         <view name="login" path="view/login.php" />
         <view name="profile" path="view/profile.php" />
+        <view name="profileOther" path="view/profileOther.php" />
         <view name="registration" path="view/registration.php" />
         <view name="search" path="view/search.php" />
         <view name="team" path="view/team.php" />

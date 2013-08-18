@@ -13,6 +13,11 @@
 class SearchAction extends AbstractAction {
 
     public function execute() {
+        $query = "SELECT * FROM Profile WHERE profileId >= ? AND profileId <= ?";
+        $params = array('ii', 1, 2);
+        $result = System::getInstance()->runQuery($query, $params);
+        var_dump($result);
+        
         $this->loadView('search');
     }
 
