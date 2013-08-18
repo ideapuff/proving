@@ -13,6 +13,7 @@
         ================================================== -->
         <link rel="stylesheet" href="<?= BASE_URL?>/public/css/app.css">
         <link rel="stylesheet" href="<?= BASE_URL?>/public/css/main.css">
+        <link rel="stylesheet" href="<?= BASE_URL?>/public/css/custom.css">
         <link rel="stylesheet" href="<?= BASE_URL?>/public/css/dashboard.css">
         <!-- JS
         ================================================== -->
