@@ -37,7 +37,7 @@
                     <h3>Right teammates meet Right here, an easiest way to find the best teammates. Real life activity feed on your dashboard about your friend, your team, your community, and the people you followed.</h3>
                     <div class="actionBtn">
                         <a href="#learn-more" class="btnWhite learnMore">Learn More</a>
-                        <a href="#sign-up" class="btnWhite getStarted">Get Started</a>
+                        <a href="registrationForm" class="btnWhite getStarted">Get Started</a>
                     </div>
                 </div>
             </div>

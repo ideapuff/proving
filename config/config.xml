@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <globals>
-        <global name="BASE_URL" value="http://localhost:8888/proving" />
+        <global name="BASE_URL" value="http://localhost/proving" />
     </globals>
     <classes>
         <class name="IAction" path="model/IAction.php" />
@@ -10,6 +10,12 @@
     </classes>
     <actions>
         <action name="testAction" path="action/TestAction.php" />
+        
+        <action name="registrationForm" path="action/RegistrationFormAction.php" />
+        <action name="registrationByGame" path="action/RegistrationByGameAction.php" />
+        <action name="registrationOfLOL" path="action/RegistrationOfLOLAction.php" />
+        
+        <action name="registrationStep1" path="action/RegistrationStep1Action.php" />
         <action name="dashboard" path="action/DashboardAction.php" />
         <action name="home" path="action/HomeAction.php" />
         <action name="login" path="action/LoginAction.php" />
@@ -21,12 +27,17 @@
         <action name="teamCreation" path="action/TeamCreationAction.php" />
     </actions>
     <views>
+        <view name="testView" path="test.php" />
+        
+        <view name="registrationForm" path="view/registrationForm.php" />
+        <view name="registrationByGame" path="view/registrationByGame.php" />
+        <view name="registrationOfLOL" path="view/registrationOfLOL.php" />
+        
         <view name="dashboard" path="view/dashboard.php" />
         <view name="home" path="view/home.php" />
         <view name="login" path="view/login.php" />
         <view name="profile" path="view/profile.php" />
         <view name="profileOther" path="view/profileOther.php" />
-        <view name="registration" path="view/registration.php" />
         <view name="search" path="view/search.php" />
         <view name="team" path="view/team.php" />
         <view name="teamCreation" path="view/teamCreation.php" />

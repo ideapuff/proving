@@ -13,7 +13,7 @@ include 'includes/header.php';
                 <div class="row">
                     <form>
                         <fieldset>
-                            <legend style="font-size: 1.5em;
+                            <lmodelegend style="font-size: 1.5em;
                                     background-color: transparent;
                                     color: white;">Search Criteria</legend>
 

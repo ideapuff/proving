@@ -29,7 +29,7 @@ include 'includes/header.php';
             <p>Create your own teams and communities, have an open conversation on the discussion board, get better on your skills.</p>
             <h2><span>Report and Verify</span> System</h2>
             <p>Notice someone tempts another gamer? Click the report button. Request to be verified, once we confirmed your information, your character information would not be used by other users anymore.</p>
-            <a href="#sign-up" class="getStarted actionBtn">Get Started <span class="icon-right-dir"></span></a>
+            <a href="registrationForm" class="getStarted actionBtn">Get Started <span class="icon-right-dir"></span></a>
         </div>
     </div>
 </section>
